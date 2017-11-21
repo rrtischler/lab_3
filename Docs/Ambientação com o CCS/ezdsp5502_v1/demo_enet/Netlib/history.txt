@@ -1,0 +1,320 @@
+        - 2.68   2011-09-15 CH
+            - FSYS: missing end condition could cause endless loop.
+            - FSYS, HTTP, F28xx: missing header packet for Java source
+            - DHCP: several enhancements
+            - ARP: RARP requests disabled
+            - behavior of gateway changed, level 2/3 router supported
+            - new socket option SO_USE_PROXY to access a router doing NAT
+            - ARP: if a destination was unreachable for hours, a new ARP request
+              could take a long time due to wrong backoff algorithm. fixed
+            - ARP: timed out addresses are deleted from ARP table, not only
+              invalidated
+
+        - 2.63   2011-05-12 CH
+            - Interrupt combiner activated for DM648
+            - new socket error SO_NO_TCP_MEM instead of endless loop in case of
+              out of sequence number error
+            - TCP option SACK could cause wrong MSS. fixed
+            - callback function call could cause data pointer NULL when send was
+              in progress. fixed.
+            - DNS databuffer never freed. fixed
+            - wrong subnet mask for auto-IP link-local address. fixed
+            - FTP server: sporadic hanging data transmission due to connection
+              status not reset. fixed
+
+        - 2.59   2010-12-23 CH
+            - connect() returned error without error code
+            - TCP: missing ACK for old packets
+            - SMSC91c111: wrong padding byte caused oversized packet
+            - SMSC91C111: error message SO_IN_USE wrongly set during TCP ACK
+            - TCP: unexpected packet flood stopped with zero window packet
+            - TCP: reassembling of missed packets after retransmit
+
+        - 2.57   2010-10-13 CH
+            - performance issues for giga bit
+            - HTTP: illegal pointer could cause malfunction
+            - TCP: ACK-FIN and RST could cause illegal socket pointer during
+              retransmit
+            - FSYS: ASCII and binary file upload revised and simplified
+            - SMSC91c111: new timeout and MMU reset during wait for allocation
+              interrupt
+            - HTTP: new webpage generator makewebpage generates an entire webpage
+              with subpages and subdirectories
+            - HTTP: changed limits: MAX_DIR = 200, MAX_NAME_LEN = 60
+            - ARP: wrong timeout could block ARP request
+            - DM648: shorter delay in TCP state TCP_STATE_WAIT
+            - DM648: wrong ALE clear bit definition caused random address filter
+
+        - 2.53   2010-05-06 CH
+            - TCP: non-volatile variable could cause a missing re-transmit
+            - SMC91c111: additional MMU reset after timeout in smc_write_packet_data()
+            - HTTP: transmitting a large page could cause connection timeout
+            - FTP client: double FTP_free_data call could cause DSP hang
+            - FSYS: Transmit error flag could terminate TCP connection
+            - HTTP: new socket aging. Older sockets are closed and freed faster
+            - VC33: incoming MAC address word 0000 caused address FFFF.
+            - FSYS: file size algorithm improved
+            - FTP Server: data socket in passive mode with wrong port number
+            - TCP: Remote Window update could cause wrong input length
+            - SMSC91c111: link detection timeout increased
+            - VC33: optimizer caused wrong integer arithmetic
+
+        - 2.47   2010-02-10 CH
+            - SMSC91c111: reliability improvements
+            - TCP: remote window size estimated during receive faults
+            - DHCP: new Auto IP configuration, when DHCP server is not available
+            - Multicast: packets with a zero checksum were ignored when socket
+              option SO_UDP_NO_CHECKSUM was used
+            - pserver/TCP: new TCP state TIME_WAIT to prevent accidental
+              connection
+            - HTTP: TCP retransmits activated
+            - HTTP: insufficient HEAP could lead to dangling connection
+            - UDP broadcast caused checksum error
+            - EMAC: uninitialized variable could cause socket mismatch in seldom cases
+            - UDP: receiving and sending broadcast messages
+            - HTTP: improved transfers for elements located in RAM
+
+        - 2.39   2009-10-02 CH
+            - SMSC91c111: RX overrun with MMU reset instead of processing
+                      receive
+            - SMSC91c111: Receiver and transmitter disabled during RX
+                      overrun
+            - SMSC91c111: Re-allocate TX packet during RX overrun when
+                      allocation is in progress
+            - SMSC91c111: wait for TX complete during RX overrun
+            - TCP: transmit of acknowledge could cause recursion during
+                      receive
+            - SMSC91c111: TX FIFO empty flag in PTR register checked
+                      instead of TX complete interrupt flag
+            - TCP: received packet during retransmit lost
+            - TCP: tcp_tx_complete() triggers retransmit if necessary
+
+        - 2.37   2009-09-11 CH
+            - TCP: ACK-FIN sometimes with wrong sequence number. fixed
+            - TCP: new transmit complete function tcp_tx_complete()
+            - netlib: internal string functions replaced by rts
+            - C6x: early keep alive packet after connect() could cause
+                    confusion in certain clients
+            - SMC91C111: timeout for emergency reset too short
+            - new error code SO_DNS_ERR for pending DNS requests
+            - SMC91C111: temporary socket could cause receive problems
+            - F28xx: Write-Followed-by-Read Pipeline conflict fixed (SPRU067.pdf)
+            - TCP: ACK-FIN after retransmit with wrong sequence number
+
+        - 2.31   2009-08-11 CH
+            - TCP:missing delayed acknowledge could cause wrong receive window
+            - EVM6747 supported
+            - DM642: additional cache write back for 32bit wide SDRAM
+            - socket structure and multicast overlay structure concatenated
+            - UDP: new socket error SO_NO_ARP_ADDRESS for unresolved addresses
+            - Socket option SO_UDP_NO_CHECKSUM caused wrong checksum error
+            - dual ethernet bug: net_send() blocked forever when link not
+                    established
+            - dual ethernet bug: net_isq() processed always three smsc91c111
+            - SMSC91c111 bug: rx overrun error not handled. fixed
+            - TCP: missing fast retransmit after rx overrun error
+            - TCP: new dynamic sequence number administration
+            - SMC91c111: old rx buffer re-use for transmit FIFO improved
+                      chip internal memory allocation
+
+        - 2.22   2009-02-05 CH
+            - TCP: duplicate retransmit packet with wrong sequence number
+            - new meaning of net_send() return value
+            - TCP: improved TCP flow control, new internal timing
+                   parameter for retransmit and timeout
+            - connect() with timeout value 0 returns immediately
+            - DHCP client: missing retransmit
+            - EMAC: missing isr loop could cause UDP checksum error
+            - single multicast address with different ports
+            - EVM6437 supported
+            - net_recv() extension for fragmented IP packets
+            - new keep alive timer for TCP
+            - C6x: uninitialized function pointer could cause DSP/BIOS reset
+            - second parameter of dhcp_func() changed to u_int16_t
+            - EMAC: missing cache write back caused problems when heap
+                    was linked to external memory
+
+        - 2.15   2008-04-09 CH
+            - FTP server supports absolute paths
+            - FTP server supports passive transfer mode
+            - Fragmented UDP packet caused checksum error
+            - DSK5509, DSK5510: wrong byte ordering in FLASH write/read.
+            - DM642, DSK6455: erroneous link detect. fixed
+            - new socket option SO_TCP_ACK_KEEPALIVE: a TCP keep alive
+                    packet is acknowledged
+            - DM642, DSK6455: TCP option length > 8 bytes ignored, new
+            - option length up to 24 bytes allowed.
+            - embedded filesystem: small ASCII files (<1460 bytes) in RAM
+                    with wrong file length. fixed
+            - FTP server with new return structure for a detailed result
+            - FTP server command DELE for erasing a FLASH sector
+            - eZdsp TMS320F28335 supported
+            - incremental checksum update error (RFC1624)
+
+        - 2.11   2007-12-07 CH
+            - DSK6455 MEZZANINE supported with 1000 MBit full duplex mode
+            - F2812: Linear address space for file upload
+            - DSK91c111: external PHY Intel LXT971 with fiber support
+            - F2812: wrong data length in callback function for data type short
+            - F2812: wrong data length in net_send function for data type short
+            - DSK91c111: missing status word in transmit could lead to lost packets
+            - new HTTP authentication method.
+            - FTP server support for F2812
+            - TCP: low TCP data throughput after retransmit; fixed
+            - TCP: new TCP option TCP_UNA_SEG for setting the unacknowledged
+                    segment size.
+            - DSK91c111: new initialization function dsk_init()
+            - DSK91c111: new link status callback function
+            - IP: wrong receive data size for DATATYPE_INT
+            - Embedded file system: a static local length information
+                    caused an upload error 2 when a file was uploaded twice.
+            - Sockets: wrong internal buffer pointer during delayed
+                    acknowledge could cause error2 error after hex file upload.
+
+        - 2.00   22 Feb 2007 CH
+            - FSYS: fsys_ascii_bin_upload() could block; fixed
+            - FSYS: wrong file buffer initialization could lead to free(NULL)
+            - New supported TI DSP's: F2812, DM642, C6455
+            - FTP server: wrong case for D.FAT and Flash File System
+
+        - 1.97   1 Feb 2007 CH
+            - TCP: wrong acknowledge sequence number when ACK | FIN is
+                    received with data > 0
+            - FTP client: far section of FTPclient.lib could not be linked
+                    into external memory
+            - missing 0xffff mask caused a nonworking TCP in VDSP3.5
+            - TCP: ST_TCP_WIN_FLAG was not reset after window error clear
+            - net_send_ready(): new timeout calculation
+
+        - 1.96   29 May 2006 CH
+            - Packet driver: smc_release_packet could cause endless loop.
+            - FTP server: memory leak in PORT command
+            - TI C6x: some bugfixes for activated cache
+            - new error code in TCP: net_recv() returns -1 with error_code
+                      SO_CONNECTION_ESTABLISHED when a new connection is established.
+            - Packet driver: packet header cached in socket structure
+            - TI C6x: Some structure alignements for cache line fitting
+            - DSK C6711, C6713 and C6416: no timer is used for initialization
+
+        - 1.95   14 Dec 2005 CH
+            - static TCP sequence numbers
+            - IP TOS field accessable
+            - static ARP table
+            - FTP Client: no 64K buffer limitation
+            - TCP: Uninitialized retransmit timer could cause unwanted
+                    retransmits and sequence number mismatch. Fixed
+            - new FTP to FAT interface for D.FAT or external filesystem
+            - TCP: some improvements for stability
+            - Packet driver smsc91c111: wrong bank select could cause a
+                    dead lock. fixed
+            - Wrong interrupt handling and a silicon bug on smsc19c111
+                    could cause lost packets. fixed
+
+        - 1.9    14 Apr 2005 CH
+            - IP: on some IP packets the carry flag caused a checksum error on Sharc
+            - UDP: ignore checksum zero
+            - CCS 3.0 new structur alignment
+            - TCP-Sockets: wrong buffersize check caused a constant delay. fixed
+            - TCP: small buffer size lead to slow connection. fixed
+            - HTTP: java class names case insensitive. fixed
+            - Embedded file system: directory names case insensitive. fixed
+            - Wrong MAC address in ARP table on gateway multicast packets. fixed
+            - HTTP: interrupted transmission could lead to HTTP-404 not found error. fixed
+            - FSYS: fsys_init_file(): dynamic file buffer pointer could be
+                    overwritten. Fixed
+            - TCP bug: Early ACK could cause recursion. Fixed
+            - New Library for FTP client support
+            - First level of Multicast Address support
+
+        - 1.8    21 Jun 2004 CH
+            - socket_define_callback() - new user callback function
+                    definition for receiving packets.
+            - new memory management on 91C111.
+            - fsys_intelhex_download() wrong flash read function caused
+                    malfunction on D.Module.C6713.
+            - malformed intel-hex download fixed.
+            - Intel-hex upload with zero delimited lines possible (
+                    useful for some telnet connections).
+            - TCP bug: send_tcp_option():during window error no retransmit
+                    possible
+            - TCP bug: internal destination window size was decreased on
+                    retransmit
+            - WinXP TCP Transmission problems: new sequence number cache
+                    architecture for retransmits
+
+        - 1.7 17 Dec 2004 CH
+            - TCP Bug: Wrong TCP Option in SYN Packets in sockets with
+                    DATATYPE_SHORT and DATATYPE_INT
+            - New 10/100MBit ethernet D.Module.91C111 adapted
+            - RARP- reverse ARP implemented
+            - When IP-address 0.0.0.0 configured, RARP request is sent and new
+            - IP-address is assigned on RARP-reply or valid ICMP-packet.
+            - Bug in net_send_ready(): Wrong data length for data type int
+            - new function get_ip_address(), set_ip_address()
+            - TCP bugfix: some TCP-packets caused a checksum error
+
+        - 1.6  3 Jun 2003 CH
+            - TCP state closed added. Use with new socket option
+            - SO_TCP_STATE_CLOSED and tcp_listen() function.
+            - TCP: Ack is sent immediately after receiving ( and not in
+                    net_recv()).
+            - Visual DSP++ 1.0 bug: arithmethic overflow interrupt
+                    occurred on msb-test.
+            - TCP: maximum receive-packet-size increased from 536 to 1460 Bytes.
+            - TCP: wrong sequence number comparison on acknowledge-packet in
+                    established mode.
+            - New Hardware DSK-91C111 adapted.
+            - Support for DSK C5510, C6711 and C6416
+
+        - 1.5 12 Nov 2002 CH
+            - HTTP Support for http.lib
+            - fsys.c - simple file support functions for d.modules
+            - pserver.c - parallel server support
+            - UDP bug fixed: checksum error for fragmented packets fixed
+            - TCP bug fixed: wrong TCP-checksum on delayed packets
+            - pragma CODE_SECTION .nettestfast and .nettestslow
+            - Gateway implemented
+            - net_recv_ready() bug: wrong length on connection closed
+            - TCP bug fixed: RST-flag in TCP_FIN_WAIT_1 & _2 not recognized
+            - ST_NEW_DATA_FLAG was not reset after connection close or reset
+            - TCP & UDP bug fixed: carry flag lost in 32 bit pseudo checksum
+
+        - 1.4 23 Mai 2002 CH:
+            - TCP bug: wrong socket option for MSS in SYN packet
+                    (effect: a socket DATATYPE_INT could not be connected)
+            - SO_CONNECTION_RESET was not reported to user
+            - accept() implemented
+            - net_send_string() implemented
+            - net_send_ready(): no limitation of bytes to send
+            - FTP Support for ftp.lib
+
+        - 1.3 30 Apr 2002 CH:
+            - TCP: duplicate packet rejection
+            - complete DHCP sequence (DHCPDISCOVER - DHCPOFFER - DHCPREQUEST - DHCPACK ) implemented
+            - DMA transfer for TMS320 6x
+            - connect(): wrong max retry value
+            - TCP: FIN -flag sometimes not reset
+            - TCP: received ACK,PSH,FIN was not recognized in net_recv()
+            - TCP: senders window size was ignored; new error
+                         message: SO_WINDOW_ERR.
+
+        - 1.2 23 Jan 2002 CH:
+            - DHCP: initialization bug fixed
+            - new blocking receive function:  net_recv_ready()
+            - new timeouts and retransmit values for connect() and shutdown()
+
+        - 1.1 11 Dec 2001 CH:
+            - socket_open() changed:
+                      - parameter protocol removed, init_func is
+                        sufficient to determine protcol
+            - net_init() changed:
+                      - if DHCP and DNS are both enabled
+                        DNS Server IP may be set to NULL
+                        to use the DHCP server machine for
+                        name resolution
+                      - net_init() waits for DHCP server response
+            - TCP: sequence number bug fixed
+
+        - 1.0 22 Oct 2001 by CH :
+                    initial release
+
