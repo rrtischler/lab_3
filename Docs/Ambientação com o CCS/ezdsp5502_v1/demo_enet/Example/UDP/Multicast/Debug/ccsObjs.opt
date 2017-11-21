@@ -1,0 +1,1 @@
+"./oled_printf.obj" "./multicast.obj" "./lcd.obj" "./dskpll.obj" "./dskemif.obj" "./cprintf.obj" "./common.obj" -l"rts55x.lib" "E:/DSK/eZDSK5502/Demo_SW/common/csl/lib/csl5502x.lib" "E:/DSK/eZDSK5502/Demo_SW/common/bsl/lib/ezdsp5502bsl.lib" "../multicast.cmd" "E:/DSK/eZDSK5502/Demo_SW/Netlib/netdemo.lib" 

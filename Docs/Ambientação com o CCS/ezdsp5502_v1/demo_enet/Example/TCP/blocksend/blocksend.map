@@ -1,0 +1,1097 @@
+******************************************************************************
+              TMS320C55x Linker PC v4.3.9                      
+******************************************************************************
+>> Linked Fri Nov 04 09:27:42 2011
+
+OUTPUT FILE NAME:   <../blocksend.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 000540d1
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+                        (bytes)   (bytes)    (bytes)   (bytes)
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  MMR                   00000000   000000c0  00000000  000000c0  RWIX
+  BTRSVD                000000c0   00000240  00000000  00000240  RWIX
+  DARAM                 00000300   0000fb00  0000ca4a  000030b6  RWIX
+  VECS                  0000fe00   00000200  00000100  00000100  RWIX
+  SDRAMTEXT             00010000   00010000  00008538  00007ac8  RWIX
+  SDRAMSYSMEM           00020000   00010000  00000000  00010000  RWIX
+  SDRAMDATA             00030000   00010000  00001360  0000eca0  RWIX
+  SDRAMCIO              00040000   00010000  00000a60  0000f5a0  RWIX
+  SDRAMRTSTEXT          00050000   00010000  000041f6  0000be0a  RWIX
+  SDRAMRTSDATA          00060000   00010000  000008e0  0000f720  RWIX
+  SDRAMFREE             00070000   00340000  00000000  00340000  RWIX
+  SDRAMINIT             003b0000   00010000  00000742  0000f8be  RWIX
+  PDROM                 00ff8000   00008000  00000000  00008000  R IX
+
+PAGE 2:
+  IOPORT                00000000   00020000  00000000  00020000  RWI 
+
+
+SECTION ALLOCATION MAP
+(Addresses surrounded by []'s are displayed for convenience only!)
+
+output                                                          attributes/
+section   page  orgn(bytes) orgn(words) len(bytes) len(words)   input sections
+--------  ----  ----------- ----------- ---------- ----------   --------------
+.databuffer 
+*            0   [ 00000300 ]  00000180          *   00003908   UNINITIALIZED
+                 [ 00000300 ]  00000180          *   00003908   blocksend.obj (.databuffer)
+
+.bss         0   [ 00007540 ]  00003aa0          *   0000141d   
+                 [ 00007540 ]  00003aa0          *   00000a1b   netdemo.lib : tcp.obj (.bss) [fill = 0]
+                 [ 00008976 ]  000044bb          *   00000001   --HOLE-- [fill = 0]
+                 [ 00008978 ]  000044bc          *   00000004               : memb.obj (.bss) [fill = 0]
+                 [ 00008980 ]  000044c0          *   00000548               : arp.obj (.bss) [fill = 0]
+                 [ 00009410 ]  00004a08          *   000003ba               : ezdsk5502.obj (.bss) [fill = 0]
+                 [ 00009b84 ]  00004dc2          *   00000076   blocksend.obj (.bss) [fill = 0]
+                 [ 00009c70 ]  00004e38          *   0000002f   netdemo.lib : socket.obj (.bss) [fill = 0]
+                 [ 00009cce ]  00004e67          *   00000001   --HOLE-- [fill = 0]
+                 [ 00009cd0 ]  00004e68          *   00000027               : ksz8851.obj (.bss) [fill = 0]
+                 [ 00009d1e ]  00004e8f          *   00000001   --HOLE-- [fill = 0]
+                 [ 00009d20 ]  00004e90          *   00000018               : Dhcp.obj (.bss) [fill = 0]
+                 [ 00009d50 ]  00004ea8          *   00000008   ezdsp5502bsl.lib : ezdsp5502_gpio.obj (.bss) [fill = 0]
+                 [ 00009d60 ]  00004eb0          *   00000003   common.obj (.bss) [fill = 0]
+                 [ 00009d66 ]  00004eb3          *   00000001   --HOLE-- [fill = 0]
+                 [ 00009d68 ]  00004eb4          *   00000003   netdemo.lib : adapter.obj (.bss) [fill = 0]
+                 [ 00009d6e ]  00004eb7          *   00000002   cprintf.obj (.bss) [fill = 0]
+                 [ 00009d72 ]  00004eb9          *   00000002   netdemo.lib : Dns.obj (.bss) [fill = 0]
+                 [ 00009d76 ]  00004ebb          *   00000002               : udp.obj (.bss) [fill = 0]
+
+.sysmem      0   [ 00009d80 ]  00004ec0          *   00001000   
+                 [ 00009d80 ]  00004ec0          *   00001000   --HOLE-- [fill = 0]
+
+.stack       0   [ 0000bd80 ]  00005ec0          *   00000400   
+                 [ 0000bd80 ]  00005ec0          *   00000400   --HOLE-- [fill = 0]
+
+.sysstack 
+*            0   [ 0000c580 ]  000062c0          *   00000400   
+                 [ 0000c580 ]  000062c0          *   00000400   --HOLE-- [fill = 0]
+
+vectors      0     0000fe00  [ 00007f00 ] 00000100          *   
+                   0000fe00  [ 00007f00 ] 00000100          *   rts55x.lib : vectors.obj (vectors)
+
+.nettextfast 
+*            0     00010000  [ 00008000 ] 00003d7e          *   
+                   00010000  [ 00008000 ] 0000086d          *   netdemo.lib : tcp.obj (.nettextfast:_tcp_state)
+                   0001086d  [ 00008436+] 000007e7          *               : tcp.obj (.nettextfast:_tcp_send_socket)
+                   00011054  [ 0000882a ] 00000589          *               : ksz8851.obj (.nettextfast:_ksz_read_packet_data)
+                   000115dd  [ 00008aee+] 00000411          *               : tcp.obj (.nettextfast:_tcp_read_ip)
+                   000119ee  [ 00008cf7 ] 000002ea          *               : arp.obj (.nettextfast:_check_arp_address)
+                   00011cd8  [ 00008e6c ] 000002c0          *               : ksz8851.obj (.nettextfast:_smc_write_packet_data)
+                   00011f98  [ 00008fcc ] 00000237          *               : socket.obj (.nettextfast:_net_check_callback)
+                   000121cf  [ 000090e7+] 00000216          *               : tcp.obj (.nettextfast:_send_tcp_option)
+                   000123e5  [ 000091f2+] 000001ed          *               : socket.obj (.nettextfast:_get_socket)
+                   000125d2  [ 000092e9 ] 000001e3          *               : ip.obj (.nettextfast:_send_ip)
+                   000127b5  [ 000093da+] 000001b5          *               : socket.obj (.nettextfast:_net_resend_all)
+                   0001296a  [ 000094b5 ] 000001b4          *               : ksz8851.obj (.nettextfast:_ksz_write_arp_packet_data)
+                   00012b1e  [ 0000958f ] 000001ae          *               : socket.obj (.nettextfast:_net_recv)
+                   00012ccc  [ 00009666 ] 00000186          *               : ip.obj (.nettextfast:_read_ip)
+                   00012e52  [ 00009729 ] 0000017f          *               : socket.obj (.nettextfast:_net_send)
+                   00012fd1  [ 000097e8+] 00000174          *               : ksz8851.obj (.nettextfast:_ksz_isr)
+                   00013145  [ 000098a2+] 00000147          *               : udp.obj (.nettextfast:_udp_send_socket)
+                   0001328c  [ 00009946 ] 00000134          *               : arp.obj (.nettextfast:_arp_timer)
+                   000133c0  [ 000099e0 ] 00000113          *               : socket.obj (.nettextfast:_net_isq)
+                   000134d3  [ 00009a69+] 00000105          *               : arp.obj (.nettextfast:_save_arp_address)
+                   000135d8  [ 00009aec ] 00000103          *               : arp.obj (.nettextfast:_read_arp)
+                   000136db  [ 00009b6d+] 000000ea          *               : tcp.obj (.nettextfast:_tcp_recv_socket)
+                   000137c5  [ 00009be2+] 000000de          *               : tcp.obj (.nettextfast:_tcp_send_pending)
+                   000138a3  [ 00009c51+] 000000cd          *               : tcp.obj (.nettextfast:_tcp_get_checksum)
+                   00013970  [ 00009cb8 ] 000000ae          *               : udp.obj (.nettextfast:_udp_read_ip)
+                   00013a1e  [ 00009d0f ] 0000008b          *               : tcp.obj (.nettextfast:_tcp_clear_seq)
+                   00013aa9  [ 00009d54+] 00000084          *               : arp.obj (.nettextfast:_send_arp)
+                   00013b2d  [ 00009d96+] 00000078          *               : arp.obj (.nettextfast:_arp_check_ip_address)
+                   00013ba5  [ 00009dd2+] 00000064          *               : memb.obj (.nettextfast:_memb_free)
+                   00013c09  [ 00009e04+] 00000052          *               : tcp.obj (.nettextfast:_tcp_send_keep_alive)
+                   00013c5b  [ 00009e2d+] 00000041          *               : memb.obj (.nettextfast:_memb_alloc)
+                   00013c9c  [ 00009e4e ] 00000034          *               : ksz8851.obj (.nettextfast:_ksz_release_packet)
+                   00013cd0  [ 00009e68 ] 00000034          *               : udp.obj (.nettextfast:_udp_recv_socket)
+                   00013d04  [ 00009e82 ] 00000021          *               : socket.obj (.nettextfast:_net_malloc)
+                   00013d25  [ 00009e92+] 00000020          *               : socket.obj (.nettextfast:_accept)
+                   00013d45  [ 00009ea2+] 0000001a          *               : arp.obj (.nettextfast:_arp_reply_function)
+                   00013d5f  [ 00009eaf+] 00000013          *               : tcp.obj (.nettextfast:_tcp_get_state)
+                   00013d72  [ 00009eb9 ] 00000007          *               : tcp.obj (.nettextfast:_tcp_send_ready)
+                   00013d79  [ 00009ebc+] 00000004          *               : udp.obj (.nettextfast:_udp_get_checksum)
+                   00013d7d  [ 00009ebe ] 00000001          *   --HOLE-- [fill = 20]
+
+.nettextslow 
+*            0     00013d80  [ 00009ec0 ] 00003274          *   
+                   00013d80  [ 00009ec0 ] 00000362          *   netdemo.lib : Dhcp.obj (.nettextslow:_dhcp_option)
+                   000140e2  [ 0000a071 ] 00000338          *               : ksz8851.obj (.nettextslow:_dsk_init)
+                   0001441a  [ 0000a20d ] 000002ef          *               : socket.obj (.nettextslow:_net_post_init)
+                   00014709  [ 0000a384+] 00000230          *               : Dhcp.obj (.nettextslow:_dhcp_recv)
+                   00014939  [ 0000a49c+] 00000215          *               : socket.obj (.nettextslow:_socket_open)
+                   00014b4e  [ 0000a5a7 ] 000001fb          *               : Dhcp.obj (.nettextslow:_auto_ip_config)
+                   00014d49  [ 0000a6a4+] 000001d6          *               : Dns.obj (.nettextslow:_open_dns_socket)
+                   00014f1f  [ 0000a78f+] 000001cc          *               : ksz8851.obj (.nettextslow:_MDIO_poll_phy)
+                   000150eb  [ 0000a875+] 00000194          *               : socket.obj (.nettextslow:_net_init)
+                   0001527f  [ 0000a93f+] 00000192          *               : Dhcp.obj (.nettextslow:_build_dhcp_message)
+                   00015411  [ 0000aa08+] 0000018f          *               : icmp.obj (.nettextslow:_icmp_recv_socket)
+                   000155a0  [ 0000aad0 ] 00000170          *               : socket.obj (.nettextslow:_socket_close)
+                   00015710  [ 0000ab88 ] 00000164          *               : tcp.obj (.nettextslow:_tcp_send_opening)
+                   00015874  [ 0000ac3a ] 00000163          *               : Dns.obj (.nettextslow:_dns_recv)
+                   000159d7  [ 0000aceb+] 00000148          *               : socket.obj (.nettextslow:_net_print_stat)
+                   00015b1f  [ 0000ad8f+] 00000144          *               : socket.obj (.nettextslow:_make_dhcp_request)
+                   00015c63  [ 0000ae31+] 0000011d          *               : icmp.obj (.nettextslow:_send_ping_reply)
+                   00015d80  [ 0000aec0 ] 00000114          *               : tcp.obj (.nettextslow:_tcp_init_pcb)
+                   00015e94  [ 0000af4a ] 000000e1          *               : ksz8851.obj (.nettextslow:_ksz_get_hw_address)
+                   00015f75  [ 0000afba+] 000000de          *               : tcp.obj (.nettextslow:_shutdown)
+                   00016053  [ 0000b029+] 000000d8          *               : Dhcp.obj (.nettextslow:_dhcp_enable)
+                   0001612b  [ 0000b095+] 000000cd          *               : socket.obj (.nettextslow:_inet_ntoa)
+                   000161f8  [ 0000b0fc ] 000000c7          *               : tcp.obj (.nettextslow:_tcp_init)
+                   000162bf  [ 0000b15f+] 000000bf          *               : ksz8851.obj (.nettextslow:_ksz_cycle_eeprom_io)
+                   0001637e  [ 0000b1bf ] 000000bd          *               : Dhcp.obj (.nettextslow:_open_dhcp_socket)
+                   0001643b  [ 0000b21d+] 000000aa          *               : arp.obj (.nettextslow:_arp_init)
+                   000164e5  [ 0000b272+] 000000aa          *               : socket.obj (.nettextslow:_install_icmp_socket)
+                   0001658f  [ 0000b2c7+] 000000a8          *               : adapter.obj (.nettextslow:_add_adapter)
+                   00016637  [ 0000b31b+] 000000a4          *               : ksz8851.obj (.nettextslow:_ksz_set_hw_address)
+                   000166db  [ 0000b36d+] 00000095          *               : udp.obj (.nettextslow:_udp_init)
+                   00016770  [ 0000b3b8 ] 0000007b          *               : socket.obj (.nettextslow:_get_free_socket)
+                   000167eb  [ 0000b3f5+] 00000075          *               : ezdsk5502.obj (.nettextslow:_dsk_spiflash_cycle)
+                   00016860  [ 0000b430 ] 00000073          *               : ezdsk5502.obj (.nettextslow:_dsk_flash_sectorerase)
+                   000168d3  [ 0000b469+] 0000006d          *               : ezdsk5502.obj (.nettextslow:_dsk_spiflash_write)
+                   00016940  [ 0000b4a0 ] 00000068          *               : ksz8851.obj (.nettextslow:_ksz_read_eeprom_word)
+                   000169a8  [ 0000b4d4 ] 00000066          *               : ezdsk5502.obj (.nettextslow:_dsk_flash_put_byte)
+                   00016a0e  [ 0000b507 ] 0000005f          *               : ezdsk5502.obj (.nettextslow:_dsk_init_sectors)
+                   00016a6d  [ 0000b536+] 0000005e          *               : socket.obj (.nettextslow:_inet_aton)
+                   00016acb  [ 0000b565+] 00000059          *               : ksz8851.obj (.nettextslow:_ksz_verify_hw_address)
+                   00016b24  [ 0000b592 ] 00000055          *               : socket.obj (.nettextslow:_prepare_for_broadcast)
+                   00016b79  [ 0000b5bc+] 00000055          *               : ksz8851.obj (.nettextslow:_set_phy_cap)
+                   00016bce  [ 0000b5e7 ] 00000054          *               : ezdsk5502.obj (.nettextslow:_dsk_flash_get_byte)
+                   00016c22  [ 0000b611 ] 00000054          *               : icmp.obj (.nettextslow:_icmp_init)
+                   00016c76  [ 0000b63b ] 0000004f          *               : ezdsk5502.obj (.nettextslow:_dsk_spiflash_read)
+                   00016cc5  [ 0000b662+] 00000040          *               : memb.obj (.nettextslow:_memb_arp_init)
+                   00016d05  [ 0000b682+] 00000040          *               : memb.obj (.nettextslow:_memb_init)
+                   00016d45  [ 0000b6a2+] 0000003e          *               : ezdsk5502.obj (.nettextslow:_dsk_spiflash_erase)
+                   00016d83  [ 0000b6c1+] 0000003d          *               : ezdsk5502.obj (.nettextslow:_dsk_hal_dc_init)
+                   00016dc0  [ 0000b6e0 ] 00000039          *               : ezdsk5502.obj (.nettextslow:_dsk_check_sectorerase)
+                   00016df9  [ 0000b6fc+] 00000039          *               : ezdsk5502.obj (.nettextslow:_dsk_flush_buffer)
+                   00016e32  [ 0000b719 ] 00000037          *               : socket.obj (.nettextslow:_net_set_gateway)
+                   00016e69  [ 0000b734+] 00000034          *               : icmp.obj (.nettextslow:_icmp_read_ip)
+                   00016e9d  [ 0000b74e+] 00000031          *               : socket.obj (.nettextslow:_get_mac_address)
+                   00016ece  [ 0000b767 ] 0000002e          *               : socket.obj (.nettextslow:_net_delay)
+                   00016efc  [ 0000b77e ] 00000025          *               : socket.obj (.nettextslow:_set_recv_buffer)
+                   00016f21  [ 0000b790+] 00000024          *               : Dhcp.obj (.nettextslow:_dhcp_get_address)
+                   00016f45  [ 0000b7a2+] 0000001f          *               : ezdsk5502.obj (.nettextslow:_dsk_flash_erase_addr)
+                   00016f64  [ 0000b7b2 ] 0000001d          *               : ezdsk5502.obj (.nettextslow:_dsk_spiflash_status)
+                   00016f81  [ 0000b7c0+] 0000001c          *               : socket.obj (.nettextslow:_get_ip_address)
+                   00016f9d  [ 0000b7ce+] 0000001a          *               : Dns.obj (.nettextslow:_dns_enable_server)
+                   00016fb7  [ 0000b7db+] 00000015          *               : arp.obj (.nettextslow:_arp_invalid_ip_address)
+                   00016fcc  [ 0000b7e6 ] 00000013          *               : socket.obj (.nettextslow:_get_netlib_ver)
+                   00016fdf  [ 0000b7ef+] 0000000c          *               : socket.obj (.nettextslow:_net_allocate_aligned_buffer)
+                   00016feb  [ 0000b7f5+] 00000004          *               : icmp.obj (.nettextslow:_icmp_get_checksum)
+                   00016fef  [ 0000b7f7+] 00000003          *               : ksz8851.obj (.nettextslow:__dummy_link_status)
+                   00016ff2  [ 0000b7f9 ] 00000002          *   --HOLE-- [fill = 20]
+
+.text        0     00017000  [ 0000b800 ] 00000dd4          *   
+                   00017000  [ 0000b800 ] 00000285          *   blocksend.obj (.text)
+                   00017285  [ 0000b942+] 00000220          *   lcd.obj (.text)
+                   000174a5  [ 0000ba52+] 0000020c          *   ezdsp5502bsl.lib : ezdsp5502_gpio.obj (.text)
+                   000176b1  [ 0000bb58 ] 00000003          *   --HOLE-- [fill = 20]
+                   000176b4  [ 0000bb5a ] 0000018e          *   csl5502x.lib : i2c_write.obj (.text:I2C_write)
+                   00017842  [ 0000bc21 ] 00000002          *   --HOLE-- [fill = 20]
+                   00017844  [ 0000bc22 ] 0000015d          *                : i2c_read.obj (.text:I2C_read)
+                   000179a1  [ 0000bcd0+] 0000014e          *   ezdsp5502bsl.lib : ezdsp5502_i2cgpio.obj (.text)
+                   00017aef  [ 0000bd77 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017af0  [ 0000bd78 ] 00000072          *   csl5502x.lib : i2c_cfg.obj (.text:I2C_config)
+                   00017b62  [ 0000bdb1 ] 0000006f          *   ezdsp5502bsl.lib : ezdsp5502.obj (.text)
+                   00017bd1  [ 0000bde8+] 0000006d          *                    : ezdsp5502_i2c.obj (.text)
+                   00017c3e  [ 0000be1f ] 00000055          *   dskpll.obj (.text)
+                   00017c93  [ 0000be49 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017c94  [ 0000be4a ] 0000004f          *   csl5502x.lib : gpio_open.obj (.text:GPIO_open)
+                   00017ce3  [ 0000be71+] 0000004c          *   dskemif.obj (.text)
+                   00017d2f  [ 0000be97 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017d30  [ 0000be98 ] 0000001f          *   csl5502x.lib : gpio_dir.obj (.text:GPIO_pinDirection)
+                   00017d4f  [ 0000bea7 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017d50  [ 0000bea8 ] 0000001f          *                : gpio_write.obj (.text:GPIO_pinWrite)
+                   00017d6f  [ 0000beb7 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017d70  [ 0000beb8 ] 00000014          *                : gpio_read.obj (.text:GPIO_pinRead)
+                   00017d84  [ 0000bec2 ] 00000013          *                : gpio_enab.obj (.text:GPIO_pinEnable)
+                   00017d97  [ 0000becb ] 00000001          *   --HOLE-- [fill = 20]
+                   00017d98  [ 0000becc ] 0000000f          *                : irq_gdisab.obj (.text:IRQ_globalDisable)
+                   00017da7  [ 0000bed3 ] 00000001          *   --HOLE-- [fill = 20]
+                   00017da8  [ 0000bed4 ] 0000000d          *                : _csl_init.obj (.text:_CSL_init)
+                   00017db5  [ 0000beda ] 00000003          *   --HOLE-- [fill = 20]
+                   00017db8  [ 0000bedc ] 0000000c          *                : csl.obj (.text:CSL_init)
+                   00017dc4  [ 0000bee2 ] 0000000c          *                : irq_grest.obj (.text:IRQ_globalRestore)
+                   00017dd0  [ 0000bee8 ] 00000002          *                : csl.obj (.text)
+                   00017dd2  [ 0000bee9 ] 00000002          *   --HOLE-- [fill = 20]
+
+.commonsect 
+*            0     00017de0  [ 0000bef0 ] 000004d0          *   
+                   00017de0  [ 0000bef0 ] 00000400          *   common.obj (.commonsect)
+                   000181e0  [ 0000c0f0 ] 000000ce          *   blocksend.obj (.commonsect)
+                   000182ae  [ 0000c157 ] 00000002          *   --HOLE-- [fill = 20]
+
+.cprintfsect 
+*            0     000182c0  [ 0000c160 ] 000002a2          *   
+                   000182c0  [ 0000c160 ] 000001f6          *   oled_printf.obj (.cprintfsect)
+                   000184b6  [ 0000c25b ] 000000aa          *   cprintf.obj (.cprintfsect)
+                   00018560  [ 0000c2b0 ] 00000002          *   --HOLE-- [fill = 20]
+
+.data        0   [ 00030000 ]  00018000          *   00000000   
+
+.const       0   [ 00030000 ]  00018000          *   00000924   
+                 [ 00030000 ]  00018000          *   0000047b   common.obj (.const:.string)
+                 [ 000308f6 ]  0001847b          *   00000001   blocksend.obj (.const)
+                 [ 000308f8 ]  0001847c          *   000002d5   blocksend.obj (.const:.string)
+                 [ 00030ea2 ]  00018751          *   00000001   --HOLE-- [fill = 0]
+                 [ 00030ea4 ]  00018752          *   0000013c   netdemo.lib : socket.obj (.const:.string)
+                 [ 0003111c ]  0001888e          *   00000059               : ksz8851.obj (.const:.string)
+                 [ 000311ce ]  000188e7          *   00000001   --HOLE-- [fill = 0]
+                 [ 000311d0 ]  000188e8          *   0000001c               : Dhcp.obj (.const:.string)
+                 [ 00031208 ]  00018904          *   0000000a   ezdsp5502bsl.lib : ezdsp5502_i2c.obj (.const:_$P$T0$1)
+                 [ 0003121c ]  0001890e          *   00000009   netdemo.lib : socket.obj (.const:_netlib_ver)
+                 [ 0003122e ]  00018917          *   00000001   --HOLE-- [fill = 0]
+                 [ 00031230 ]  00018918          *   00000008               : Dns.obj (.const:.string)
+                 [ 00031240 ]  00018920          *   00000004   cprintf.obj (.const:.string)
+
+.switch      0   [ 00031248 ]  00018924          *   0000004a   
+                 [ 00031248 ]  00018924          *   00000036   common.obj (.switch)
+                 [ 000312b4 ]  0001895a          *   00000014   netdemo.lib : tcp.obj (.switch)
+
+.csldata     0   [ 000312e0 ]  00018970          *   00000042   
+                 [ 000312e0 ]  00018970          *   00000022   csl5502x.lib : csl_csldat.obj (.csldata:SYS_data) [fill = 0]
+                 [ 00031324 ]  00018992          *   00000020                : csl_gpiodat.obj (.csldata:GPIO_data) [fill = 0]
+
+.cio         0   [ 00040000 ]  00020000          *   00000530   
+                 [ 00040000 ]  00020000          *   00000200   cprintf.obj (.cio) [fill = 0]
+                 [ 00040400 ]  00020200          *   000001f6   oled_printf.obj (.cio) [fill = 0]
+                 [ 000407ec ]  000203f6          *   00000002   --HOLE-- [fill = 0]
+                 [ 000407f0 ]  000203f8          *   00000120   rts55x.lib : trgmsg.obj (.cio) [fill = 0]
+                 [ 00040a30 ]  00020518          *   00000018   common.obj (.cio) [fill = 0]
+
+.rtstext     0     00050000  [ 00028000 ] 000041f6          *   
+                   00050000  [ 00028000 ] 00001598          *   rts55x.lib : _printfi.obj (.text)
+                   00051598  [ 00028acc ] 00000543          *              : lowlev.obj (.text)
+                   00051adb  [ 00028d6d+] 00000528          *              : trgdrv.obj (.text)
+                   00052003  [ 00029001+] 000004b5          *              : memory.obj (.text)
+                   000524b8  [ 0002925c ] 0000036c          *              : divd.obj (.text)
+                   00052824  [ 00029412 ] 0000027f          *              : fopen.obj (.text)
+                   00052aa3  [ 00029551+] 0000025e          *              : llmpy.obj (.text)
+                   00052d01  [ 00029680+] 00000259          *              : addd.obj (.text)
+                   00052f5a  [ 000297ad ] 000001ea          *              : cmpd.obj (.text)
+                   00053144  [ 000298a2 ] 00000163          *              : fputs.obj (.text)
+                   000532a7  [ 00029953+] 0000014c          *              : mpyd.obj (.text)
+                   000533f3  [ 000299f9+] 000000e6          *              : setvbuf.obj (.text)
+                   000534d9  [ 00029a6c+] 000000dd          *              : _io_perm.obj (.text)
+                   000535b6  [ 00029adb ] 000000c8          *              : frcmpyd_div.obj (.text)
+                   0005367e  [ 00029b3f ] 000000c2          *              : fflush.obj (.text)
+                   00053740  [ 00029ba0 ] 000000ba          *              : trgmsg.obj (.text:CIO_breakpoint)
+                   000537fa  [ 00029bfd ] 000000a6          *              : fputc.obj (.text)
+                   000538a0  [ 00029c50 ] 000000a1          *              : divul.obj (.text)
+                   00053941  [ 00029ca0+] 0000007d          *              : ltoa.obj (.text)
+                   000539be  [ 00029cdf ] 0000007b          *              : fclose.obj (.text)
+                   00053a39  [ 00029d1c+] 00000076          *              : frcmpyd.obj (.text)
+                   00053aaf  [ 00029d57+] 00000075          *              : sinit.obj (.text)
+                   00053b24  [ 00029d92 ] 00000072          *              : remul.obj (.text)
+                   00053b96  [ 00029dcb ] 0000006f          *              : atexit.obj (.text)
+                   00053c05  [ 00029e02+] 0000006f          *              : fixdli.obj (.text)
+                   00053c74  [ 00029e3a ] 0000006d          *              : trgmsg.obj (.text)
+                   00053ce1  [ 00029e70+] 0000006b          *              : fseek.obj (.text)
+                   00053d4c  [ 00029ea6 ] 0000006a          *              : vsprintf.obj (.text)
+                   00053db6  [ 00029edb ] 00000067          *              : fltlid.obj (.text)
+                   00053e1d  [ 00029f0e+] 00000060          *              : rand.obj (.text)
+                   00053e7d  [ 00029f3e+] 0000005c          *              : atoi.obj (.text)
+                   00053ed9  [ 00029f6c+] 00000050          *              : printf.obj (.text)
+                   00053f29  [ 00029f94+] 0000004d          *              : autoinit.obj (.text)
+                   00053f76  [ 00029fbb ] 0000004b          *              : args_main.obj (.text)
+                   00053fc1  [ 00029fe0+] 0000004b          *              : remli.obj (.text)
+                   0005400c  [ 0002a006 ] 00000048          *              : divli.obj (.text)
+                   00054054  [ 0002a02a ] 0000003f          *              : memcpy.obj (.text)
+                   00054093  [ 0002a049+] 0000003e          *              : exit.obj (.text)
+                   000540d1  [ 0002a068+] 00000034          *              : boot.obj (.text)
+                   00054105  [ 0002a082+] 0000002a          *              : fixdi.obj (.text)
+                   0005412f  [ 0002a097+] 0000002a          *              : udiv.obj (.text)
+                   00054159  [ 0002a0ac+] 00000023          *              : memccpy.obj (.text)
+                   0005417c  [ 0002a0be ] 0000001c          *              : isinf.obj (.text)
+                   00054198  [ 0002a0cc ] 00000014          *              : subd.obj (.text)
+                   000541ac  [ 0002a0d6 ] 00000013          *              : lmpy.obj (.text)
+                   000541bf  [ 0002a0df+] 00000012          *              : _lock.obj (.text)
+                   000541d1  [ 0002a0e8+] 00000010          *              : negd.obj (.text)
+                   000541e1  [ 0002a0f0+] 0000000a          *              : remove.obj (.text)
+                   000541eb  [ 0002a0f5+] 00000007          *              : exit.obj (.text:CIO_breakpoint)
+                   000541f2  [ 0002a0f9 ] 00000002          *              : vectors.obj (.text)
+                   000541f4  [ 0002a0fa ] 00000002          *   --HOLE-- [fill = 20]
+
+.rtsbss      0   [ 00060000 ]  00030000          *   00000330   
+                 [ 00060000 ]  00030000          *   00000119   rts55x.lib : defs.obj (.bss) [fill = 0]
+                 [ 00060232 ]  00030119          *   000000d0              : trgdrv.obj (.bss) [fill = 0]
+                 [ 000603d2 ]  000301e9          *   00000001              : fopen.obj (.bss) [fill = 0]
+                 [ 000603d4 ]  000301ea          *   000000c2              : atexit.obj (.bss) [fill = 0]
+                 [ 00060558 ]  000302ac          *   00000071              : lowlev.obj (.bss) [fill = 0]
+                 [ 0006063a ]  0003031d          *   00000001   --HOLE-- [fill = 0]
+                 [ 0006063c ]  0003031e          *   00000006              : memory.obj (.bss) [fill = 0]
+                 [ 00060648 ]  00030324          *   00000004              : _lock.obj (.bss) [fill = 0]
+                 [ 00060650 ]  00030328          *   00000004              : exit.obj (.bss) [fill = 0]
+                 [ 00060658 ]  0003032c          *   00000002              : rand.obj (.bss) [fill = 0]
+                 [ 0006065c ]  0003032e          *   00000002              : sinit.obj (.bss) [fill = 0]
+
+.rtsdata     0   [ 00060660 ]  00030330          *   00000140   
+                 [ 00060660 ]  00030330          *   00000101   rts55x.lib : ctype.obj (.const:__ctypes_)
+                 [ 00060862 ]  00030431          *   00000001   --HOLE-- [fill = 0]
+                 [ 00060864 ]  00030432          *   00000024              : _printfi.obj (.const:.string)
+                 [ 000608ac ]  00030456          *   0000000c              : _printfi.obj (.const)
+                 [ 000608c4 ]  00030462          *   00000008              : divd.obj (.const:_initial_approx$1)
+                 [ 000608d4 ]  0003046a          *   00000002              : fputs.obj (.const:.string)
+                 [ 000608d8 ]  0003046c          *   00000002              : divd.obj (.const)
+                 [ 000608dc ]  0003046e          *   00000002              : fltlid.obj (.const)
+
+.cinit       0   [ 003b0000 ]  001d8000          *   000003a1   
+                 [ 003b0000 ]  001d8000          *   00000179   oled_printf.obj (.cinit)
+                 [ 003b02f2 ]  001d8179          *   00000050   netdemo.lib : socket.obj (.cinit)
+                 [ 003b0392 ]  001d81c9          *   0000002d   rts55x.lib : lowlev.obj (.cinit)
+                 [ 003b03ec ]  001d81f6          *   0000002c   netdemo.lib : Dhcp.obj (.cinit)
+                 [ 003b0444 ]  001d8222          *   0000002b               : ezdsk5502.obj (.cinit)
+                 [ 003b049a ]  001d824d          *   0000002a   rts55x.lib : defs.obj (.cinit)
+                 [ 003b04ee ]  001d8277          *   00000027   common.obj (.cinit)
+                 [ 003b053c ]  001d829e          *   00000025   csl5502x.lib : csl_csldat.obj (.cinit)
+                 [ 003b0586 ]  001d82c3          *   00000023                : csl_gpiodat.obj (.cinit)
+                 [ 003b05cc ]  001d82e6          *   00000022   blocksend.obj (.cinit)
+                 [ 003b0610 ]  001d8308          *   0000001b   netdemo.lib : arp.obj (.cinit)
+                 [ 003b0646 ]  001d8323          *   0000001a               : tcp.obj (.cinit)
+                 [ 003b067a ]  001d833d          *   0000000a               : ksz8851.obj (.cinit)
+                 [ 003b068e ]  001d8347          *   0000000a               : memb.obj (.cinit)
+                 [ 003b06a2 ]  001d8351          *   0000000a   rts55x.lib : _lock.obj (.cinit)
+                 [ 003b06b6 ]  001d835b          *   0000000a              : exit.obj (.cinit)
+                 [ 003b06ca ]  001d8365          *   00000009   netdemo.lib : adapter.obj (.cinit)
+                 [ 003b06dc ]  001d836e          *   00000008   cprintf.obj (.cinit)
+                 [ 003b06ec ]  001d8376          *   00000008   netdemo.lib : Dns.obj (.cinit)
+                 [ 003b06fc ]  001d837e          *   00000008               : udp.obj (.cinit)
+                 [ 003b070c ]  001d8386          *   00000008   rts55x.lib : atexit.obj (.cinit)
+                 [ 003b071c ]  001d838e          *   00000005              : rand.obj (.cinit)
+                 [ 003b0726 ]  001d8393          *   00000005              : sinit.obj (.cinit)
+                 [ 003b0730 ]  001d8398          *   00000004              : fopen.obj (.cinit)
+                 [ 003b0738 ]  001d839c          *   00000004              : memory.obj (.cinit)
+                 [ 003b0740 ]  001d83a0          *   00000001   --HOLE-- [fill = 0]
+
+.pinit       0   [ 003b0000 ]  001d8000          *   00000000   
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000001                $TI_capability_requires_rev2
+            00003aa0    .bss
+            00018000    .data
+00017000                .text
+000541ec                C$$EXIT
+000537f5                C$$IO$$
+000541ac                I$$LMPY
+0005412f                I$$UDIV
+00054144                I$$UMOD
+00017e08                _AppCleanup
+0001814f                _AppInit
+000184f4                _CPrintf
+000184b6                _CPrintf_select_output
+00017dd0                _CSL5502_LIB_
+            00018992    _CSL_GpioData
+            00018970    _CSL_SysData
+00017db8                _CSL_init
+000182e4                _ClearLine
+00017636                _EZDSP5502_GPIO_getInput
+000174a5                _EZDSP5502_GPIO_init
+0001753c                _EZDSP5502_GPIO_setDirection
+000175b9                _EZDSP5502_GPIO_setOutput
+000179a1                _EZDSP5502_I2CGPIO_configLine
+00017a78                _EZDSP5502_I2CGPIO_read
+000179f4                _EZDSP5502_I2CGPIO_readLine
+00017ac5                _EZDSP5502_I2CGPIO_write
+00017a25                _EZDSP5502_I2CGPIO_writeLine
+00017bd1                _EZDSP5502_I2C_init
+00017c1a                _EZDSP5502_I2C_read
+00017bee                _EZDSP5502_I2C_reset
+00017bf8                _EZDSP5502_I2C_write
+00017bb8                _EZDSP5502_init
+00017b72                _EZDSP5502_wait
+00017ba6                _EZDSP5502_waitusec
+00017c94                _GPIO_open
+00017d30                _GPIO_pinDirection
+00017d84                _GPIO_pinEnable
+00017d70                _GPIO_pinRead
+00017d50                _GPIO_pinWrite
+00051fa5                _HOSTclock
+00051f3a                _HOSTclose
+00051e85                _HOSTlseek
+00051de6                _HOSTopen
+00051d59                _HOSTread
+00051cab                _HOSTrename
+00051c4d                _HOSTtime
+00051be3                _HOSTunlink
+00051b56                _HOSTwrite
+00017af0                _I2C_config
+00017844                _I2C_read
+000176b4                _I2C_write
+00017d98                _IRQ_globalDisable
+00017dc4                _IRQ_globalRestore
+00018498                _InitOled
+000181e0                _InitializeNetwork
+0001831b                _IsPrintable
+00018103                _LED_init
+00018020                _LED_off
+00017de0                _LED_on
+000180fc                _LED_state
+000180c6                _LED_toggle
+00014f1f                _MDIO_poll_phy
+00018456                _OledPrintf
+00017e4a                _PrintExitCode
+0000fe00                _Reset
+000182c0                _SelectLine
+            000203f8    __CIOBUF_
+00017da8                __CSL_init
+            000062c0    __STACK_END
+00000800                __STACK_SIZE
+00002000                __SYSMEM_SIZE
+00000800                __SYSSTACK_SIZE
+00053b05                ___add_dtor
+            000301ea    ___atexit_func_id__
+ffffffff                ___binit__
+            00003aa0    ___bss__
+ffffffff                ___c_args__
+            001d8000    ___cinit__
+            00018000    ___data__
+            00004e38    ___dsp_clock
+            00018000    ___edata__
+            00004ebd    ___end__
+00017dd4                ___etext__
+0005417c                ___isinf
+            00004e76    ___link_status
+            00004e3a    ___net_isq_interval
+ffffffff                ___pinit__
+00017000                ___text__
+00052d01                __addd
+00053f76                __args_main
+00052945                __cleanup
+            00030328    __cleanup_ptr
+000530ec                __cmpd
+            00030330    __ctypes_
+000524da                __divd
+0005400c                __divli
+00052ccc                __divlli
+0005412f                __divu
+000538a0                __divul
+00052bd8                __divull
+0005367e                __doflush
+            0003032a    __dtors_ptr
+00016fef                __dummy_link_status
+000530b8                __eqld
+00054105                __fixdi
+00053c05                __fixdli
+00053db6                __fltlid
+00053a39                __frcmpyd
+000535b6                __frcmpyd_div
+            00030118    __ft_end
+            00030000    __ftable
+0005306e                __geqd
+00053023                __gtrd
+00052fd6                __leqd
+            00004eb1    __link
+            00030324    __lock
+00052f8e                __lssd
+000532a7                __mpyd
+000541ac                __mpyli
+00052b20                __mpylli
+000541d1                __negd
+00052f5a                __neqd
+000541cf                __nop
+00051356                __printfi
+00053559                __rd_ok
+000541c7                __register_lock
+000541bf                __register_unlock
+00053fc1                __remli
+00052af1                __remlli
+00054144                __remu
+00053b24                __remul
+00052aa3                __remull
+            00005ec0    __stack
+00054198                __subd
+            00004ec0    __sys_memory
+            000062c0    __sysstack
+            000044a6    __tcp_retransmit_time
+            00030078    __tmpnams
+            00030326    __unlock
+000534d9                __wrt_ok
+000541eb                _abort
+00013d25                _accept
+            00004eb4    _adapter_list
+0001658f                _add_adapter
+000519eb                _add_device
+            00004e3e    _addr
+            000044c0    _arp_addr
+00013b2d                _arp_check_ip_address
+            000044ca    _arp_head
+0001643b                _arp_init
+00016fb7                _arp_invalid_ip_address
+00013d45                _arp_reply_function
+0001328c                _arp_timer
+00053b96                _atexit
+00053e7d                _atoi
+00053f29                _auto_init
+            00004e9c    _auto_ip
+00014b4e                _auto_ip_config
+            00004e9a    _auto_ip_state
+0001527f                _build_dhcp_message
+000540d1                _c_int00
+00053aaf                _call_dtors
+00052492                _calloc
+000119ee                _check_arp_address
+0005248a                _chkheap
+00051978                _close
+            00004e78    _data_len
+            00004e74    _dev_in_use_cnt
+            00004e92    _dhcp_data
+00016053                _dhcp_enable
+00016f21                _dhcp_get_address
+            00004e96    _dhcp_message_len
+            00004e99    _dhcp_nr
+00013d80                _dhcp_option
+00014709                _dhcp_recv
+            00004e94    _dhcp_send_data
+            00004dce    _dhcp_setting
+            00004e98    _dhcp_state
+00016f9d                _dns_enable_server
+00015874                _dns_recv
+            00004dcc    _dns_setting
+            00004e54    _domain_name
+00016dc0                _dsk_check_sectorerase
+00016f45                _dsk_flash_erase_addr
+00016bce                _dsk_flash_get_byte
+000169a8                _dsk_flash_put_byte
+00016860                _dsk_flash_sectorerase
+00016df9                _dsk_flush_buffer
+00016d83                _dsk_hal_dc_init
+000140e2                _dsk_init
+00016a0e                _dsk_init_sectors
+000167eb                _dsk_spiflash_cycle
+00016d45                _dsk_spiflash_erase
+00016c76                _dsk_spiflash_read
+00016f64                _dsk_spiflash_status
+000168d3                _dsk_spiflash_write
+            00004dc2    _dsp_clock
+            0003032e    _dtors
+00054093                _exit
+            00004eb0    _exit_code
+            00020200    _f8x8
+000539be                _fclose
+000536e7                _fflush
+0005196f                _find_registered_device
+00052a68                _fopen
+000537fa                _fputc
+00053144                _fputs
+            00004e79    _frame_data_out
+00052003                _free
+00052434                _free_memory
+0005299f                _freopen
+00053ce1                _fseek
+00016770                _get_free_socket
+00016f81                _get_ip_address
+00016e9d                _get_mac_address
+00016fcc                _get_netlib_ver
+000123e5                _get_socket
+00051adb                _getenv
+            000044c8    _gratuitous_arp
+            00004ea8    _hGPIO_group0
+            00004eaa    _hGPIO_group1
+            00004eac    _hGPIO_group2
+            00004eae    _hGPIO_group3
+            00004e52    _host_name
+00016feb                _icmp_get_checksum
+00016c22                _icmp_init
+00016e69                _icmp_read_ip
+00015411                _icmp_recv_socket
+            00004e64    _ie
+00016a6d                _inet_aton
+0001612b                _inet_ntoa
+00017ce3                _init_emif
+00017c3e                _init_pll
+000164e5                _install_icmp_socket
+            00004e68    _ksz_ctl
+000162bf                _ksz_cycle_eeprom_io
+00015e94                _ksz_get_hw_address
+00012fd1                _ksz_isr
+00016940                _ksz_read_eeprom_word
+00011054                _ksz_read_packet_data
+00013c9c                _ksz_release_packet
+00016637                _ksz_set_hw_address
+0001296a                _ksz_write_arp_packet_data
+0001804a                _link_status
+            00004e66    _linkstate
+00051909                _lseek
+00053941                _ltoa
+000170aa                _main
+00015b1f                _make_dhcp_request
+00052134                _malloc
+000523da                _max_free
+00013c5b                _memb_alloc
+00016cc5                _memb_arp_init
+00013ba5                _memb_free
+00016d05                _memb_init
+            00003aa0    _memb_mem
+00054159                _memccpy
+00054054                _memcpy
+000520cf                _minit
+00016fdf                _net_allocate_aligned_buffer
+00011f98                _net_check_callback
+00016ece                _net_delay
+000150eb                _net_init
+000133c0                _net_isq
+00013d04                _net_malloc
+0001441a                _net_post_init
+00017f10                _net_print_error
+000159d7                _net_print_stat
+00012b1e                _net_recv
+000127b5                _net_resend_all
+00012e52                _net_send
+00017000                _net_send_block
+00016e32                _net_set_gateway
+            0001890e    _netlib_ver
+0005184a                _open
+0001637e                _open_dhcp_socket
+            00004e50    _open_dhcp_socket_func
+00014d49                _open_dns_socket
+            00004e4c    _open_dns_socket_func
+00017342                _osd9616_init
+00017310                _osd9616_multiSend
+00017285                _osd9616_send
+            00004eb7    _output_device
+            00004a9c    _pflash
+00016b24                _prepare_for_broadcast
+00018337                _printChar
+0001729f                _printLetter
+000183a2                _printString
+00053ed9                _printf
+            00004dd0    _program_name
+000537fa                _putc
+00053891                _putchar
+00053279                _puts
+00053e3f                _rand
+0005179c                _read
+000135d8                _read_arp
+00012ccc                _read_ip
+00053c74                _readmsg
+00052229                _realloc
+            00004e4e    _recv_dhcp_func
+            00004e4a    _recv_dns_func
+000541e1                _remove
+00051766                _remove_device
+0005170d                _rename
+000134d3                _save_arp_address
+00013aa9                _send_arp
+000125d2                _send_ip
+00015c63                _send_ping_reply
+000121cf                _send_tcp_option
+            000044a0    _sendmem
+00016efc                _set_recv_buffer
+000533f3                _setvbuf
+00015f75                _shutdown
+00011cd8                _smc_write_packet_data
+            00004e62    _so_count
+            00004e46    _so_head
+            00004e48    _so_last
+000155a0                _socket_close
+00014939                _socket_open
+00053e1d                _srand
+00013a1e                _tcp_clear_seq
+000138a3                _tcp_get_checksum
+00013d5f                _tcp_get_state
+000161f8                _tcp_init
+00015d80                _tcp_init_pcb
+            00004e5c    _tcp_iss
+000115dd                _tcp_read_ip
+000136db                _tcp_recv_socket
+00013c09                _tcp_send_keep_alive
+00015710                _tcp_send_opening
+000137c5                _tcp_send_pending
+00013d72                _tcp_send_ready
+0001086d                _tcp_send_socket
+            00004dd2    _tcp_server
+00010000                _tcp_state
+            00004e5e    _tcp_timer
+            00004e60    _timer_count
+            00004e90    _transaction_id
+00013d79                _udp_get_checksum
+000166db                _udp_init
+00013970                _udp_read_ip
+00013cd0                _udp_recv_socket
+00013145                _udp_send_socket
+000516da                _unlink
+00053d4c                _vsprintf
+00051598                _write
+00053740                _writemsg
+ffffffff                binit
+            001d8000    cinit
+            00018000    edata
+            00004ebd    end
+00017dd4                etext
+ffffffff                pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000001                $TI_capability_requires_rev2
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000800                __STACK_SIZE
+00000800                __SYSSTACK_SIZE
+00002000                __SYSMEM_SIZE
+            00003aa0    .bss
+            00003aa0    ___bss__
+            00003aa0    _memb_mem
+            000044a0    _sendmem
+            000044a6    __tcp_retransmit_time
+            000044c0    _arp_addr
+            000044c8    _gratuitous_arp
+            000044ca    _arp_head
+            00004a9c    _pflash
+            00004dc2    _dsp_clock
+            00004dcc    _dns_setting
+            00004dce    _dhcp_setting
+            00004dd0    _program_name
+            00004dd2    _tcp_server
+            00004e38    ___dsp_clock
+            00004e3a    ___net_isq_interval
+            00004e3e    _addr
+            00004e46    _so_head
+            00004e48    _so_last
+            00004e4a    _recv_dns_func
+            00004e4c    _open_dns_socket_func
+            00004e4e    _recv_dhcp_func
+            00004e50    _open_dhcp_socket_func
+            00004e52    _host_name
+            00004e54    _domain_name
+            00004e5c    _tcp_iss
+            00004e5e    _tcp_timer
+            00004e60    _timer_count
+            00004e62    _so_count
+            00004e64    _ie
+            00004e66    _linkstate
+            00004e68    _ksz_ctl
+            00004e74    _dev_in_use_cnt
+            00004e76    ___link_status
+            00004e78    _data_len
+            00004e79    _frame_data_out
+            00004e90    _transaction_id
+            00004e92    _dhcp_data
+            00004e94    _dhcp_send_data
+            00004e96    _dhcp_message_len
+            00004e98    _dhcp_state
+            00004e99    _dhcp_nr
+            00004e9a    _auto_ip_state
+            00004e9c    _auto_ip
+            00004ea8    _hGPIO_group0
+            00004eaa    _hGPIO_group1
+            00004eac    _hGPIO_group2
+            00004eae    _hGPIO_group3
+            00004eb0    _exit_code
+            00004eb1    __link
+            00004eb4    _adapter_list
+            00004eb7    _output_device
+            00004ebd    ___end__
+            00004ebd    end
+            00004ec0    __sys_memory
+            00005ec0    __stack
+            000062c0    __STACK_END
+            000062c0    __sysstack
+0000fe00                _Reset
+00010000                _tcp_state
+0001086d                _tcp_send_socket
+00011054                _ksz_read_packet_data
+000115dd                _tcp_read_ip
+000119ee                _check_arp_address
+00011cd8                _smc_write_packet_data
+00011f98                _net_check_callback
+000121cf                _send_tcp_option
+000123e5                _get_socket
+000125d2                _send_ip
+000127b5                _net_resend_all
+0001296a                _ksz_write_arp_packet_data
+00012b1e                _net_recv
+00012ccc                _read_ip
+00012e52                _net_send
+00012fd1                _ksz_isr
+00013145                _udp_send_socket
+0001328c                _arp_timer
+000133c0                _net_isq
+000134d3                _save_arp_address
+000135d8                _read_arp
+000136db                _tcp_recv_socket
+000137c5                _tcp_send_pending
+000138a3                _tcp_get_checksum
+00013970                _udp_read_ip
+00013a1e                _tcp_clear_seq
+00013aa9                _send_arp
+00013b2d                _arp_check_ip_address
+00013ba5                _memb_free
+00013c09                _tcp_send_keep_alive
+00013c5b                _memb_alloc
+00013c9c                _ksz_release_packet
+00013cd0                _udp_recv_socket
+00013d04                _net_malloc
+00013d25                _accept
+00013d45                _arp_reply_function
+00013d5f                _tcp_get_state
+00013d72                _tcp_send_ready
+00013d79                _udp_get_checksum
+00013d80                _dhcp_option
+000140e2                _dsk_init
+0001441a                _net_post_init
+00014709                _dhcp_recv
+00014939                _socket_open
+00014b4e                _auto_ip_config
+00014d49                _open_dns_socket
+00014f1f                _MDIO_poll_phy
+000150eb                _net_init
+0001527f                _build_dhcp_message
+00015411                _icmp_recv_socket
+000155a0                _socket_close
+00015710                _tcp_send_opening
+00015874                _dns_recv
+000159d7                _net_print_stat
+00015b1f                _make_dhcp_request
+00015c63                _send_ping_reply
+00015d80                _tcp_init_pcb
+00015e94                _ksz_get_hw_address
+00015f75                _shutdown
+00016053                _dhcp_enable
+0001612b                _inet_ntoa
+000161f8                _tcp_init
+000162bf                _ksz_cycle_eeprom_io
+0001637e                _open_dhcp_socket
+0001643b                _arp_init
+000164e5                _install_icmp_socket
+0001658f                _add_adapter
+00016637                _ksz_set_hw_address
+000166db                _udp_init
+00016770                _get_free_socket
+000167eb                _dsk_spiflash_cycle
+00016860                _dsk_flash_sectorerase
+000168d3                _dsk_spiflash_write
+00016940                _ksz_read_eeprom_word
+000169a8                _dsk_flash_put_byte
+00016a0e                _dsk_init_sectors
+00016a6d                _inet_aton
+00016b24                _prepare_for_broadcast
+00016bce                _dsk_flash_get_byte
+00016c22                _icmp_init
+00016c76                _dsk_spiflash_read
+00016cc5                _memb_arp_init
+00016d05                _memb_init
+00016d45                _dsk_spiflash_erase
+00016d83                _dsk_hal_dc_init
+00016dc0                _dsk_check_sectorerase
+00016df9                _dsk_flush_buffer
+00016e32                _net_set_gateway
+00016e69                _icmp_read_ip
+00016e9d                _get_mac_address
+00016ece                _net_delay
+00016efc                _set_recv_buffer
+00016f21                _dhcp_get_address
+00016f45                _dsk_flash_erase_addr
+00016f64                _dsk_spiflash_status
+00016f81                _get_ip_address
+00016f9d                _dns_enable_server
+00016fb7                _arp_invalid_ip_address
+00016fcc                _get_netlib_ver
+00016fdf                _net_allocate_aligned_buffer
+00016feb                _icmp_get_checksum
+00016fef                __dummy_link_status
+00017000                .text
+00017000                ___text__
+00017000                _net_send_block
+000170aa                _main
+00017285                _osd9616_send
+0001729f                _printLetter
+00017310                _osd9616_multiSend
+00017342                _osd9616_init
+000174a5                _EZDSP5502_GPIO_init
+0001753c                _EZDSP5502_GPIO_setDirection
+000175b9                _EZDSP5502_GPIO_setOutput
+00017636                _EZDSP5502_GPIO_getInput
+000176b4                _I2C_write
+00017844                _I2C_read
+000179a1                _EZDSP5502_I2CGPIO_configLine
+000179f4                _EZDSP5502_I2CGPIO_readLine
+00017a25                _EZDSP5502_I2CGPIO_writeLine
+00017a78                _EZDSP5502_I2CGPIO_read
+00017ac5                _EZDSP5502_I2CGPIO_write
+00017af0                _I2C_config
+00017b72                _EZDSP5502_wait
+00017ba6                _EZDSP5502_waitusec
+00017bb8                _EZDSP5502_init
+00017bd1                _EZDSP5502_I2C_init
+00017bee                _EZDSP5502_I2C_reset
+00017bf8                _EZDSP5502_I2C_write
+00017c1a                _EZDSP5502_I2C_read
+00017c3e                _init_pll
+00017c94                _GPIO_open
+00017ce3                _init_emif
+00017d30                _GPIO_pinDirection
+00017d50                _GPIO_pinWrite
+00017d70                _GPIO_pinRead
+00017d84                _GPIO_pinEnable
+00017d98                _IRQ_globalDisable
+00017da8                __CSL_init
+00017db8                _CSL_init
+00017dc4                _IRQ_globalRestore
+00017dd0                _CSL5502_LIB_
+00017dd4                ___etext__
+00017dd4                etext
+00017de0                _LED_on
+00017e08                _AppCleanup
+00017e4a                _PrintExitCode
+00017f10                _net_print_error
+00018020                _LED_off
+0001804a                _link_status
+000180c6                _LED_toggle
+000180fc                _LED_state
+00018103                _LED_init
+0001814f                _AppInit
+000181e0                _InitializeNetwork
+000182c0                _SelectLine
+000182e4                _ClearLine
+0001831b                _IsPrintable
+00018337                _printChar
+000183a2                _printString
+00018456                _OledPrintf
+00018498                _InitOled
+000184b6                _CPrintf_select_output
+000184f4                _CPrintf
+            00018000    .data
+            00018000    ___data__
+            00018000    ___edata__
+            00018000    edata
+            0001890e    _netlib_ver
+            00018970    _CSL_SysData
+            00018992    _CSL_GpioData
+            00020200    _f8x8
+            000203f8    __CIOBUF_
+00051356                __printfi
+00051598                _write
+000516da                _unlink
+0005170d                _rename
+00051766                _remove_device
+0005179c                _read
+0005184a                _open
+00051909                _lseek
+0005196f                _find_registered_device
+00051978                _close
+000519eb                _add_device
+00051adb                _getenv
+00051b56                _HOSTwrite
+00051be3                _HOSTunlink
+00051c4d                _HOSTtime
+00051cab                _HOSTrename
+00051d59                _HOSTread
+00051de6                _HOSTopen
+00051e85                _HOSTlseek
+00051f3a                _HOSTclose
+00051fa5                _HOSTclock
+00052003                _free
+000520cf                _minit
+00052134                _malloc
+00052229                _realloc
+000523da                _max_free
+00052434                _free_memory
+0005248a                _chkheap
+00052492                _calloc
+000524da                __divd
+00052945                __cleanup
+0005299f                _freopen
+00052a68                _fopen
+00052aa3                __remull
+00052af1                __remlli
+00052b20                __mpylli
+00052bd8                __divull
+00052ccc                __divlli
+00052d01                __addd
+00052f5a                __neqd
+00052f8e                __lssd
+00052fd6                __leqd
+00053023                __gtrd
+0005306e                __geqd
+000530b8                __eqld
+000530ec                __cmpd
+00053144                _fputs
+00053279                _puts
+000532a7                __mpyd
+000533f3                _setvbuf
+000534d9                __wrt_ok
+00053559                __rd_ok
+000535b6                __frcmpyd_div
+0005367e                __doflush
+000536e7                _fflush
+00053740                _writemsg
+000537f5                C$$IO$$
+000537fa                _fputc
+000537fa                _putc
+00053891                _putchar
+000538a0                __divul
+00053941                _ltoa
+000539be                _fclose
+00053a39                __frcmpyd
+00053aaf                _call_dtors
+00053b05                ___add_dtor
+00053b24                __remul
+00053b96                _atexit
+00053c05                __fixdli
+00053c74                _readmsg
+00053ce1                _fseek
+00053d4c                _vsprintf
+00053db6                __fltlid
+00053e1d                _srand
+00053e3f                _rand
+00053e7d                _atoi
+00053ed9                _printf
+00053f29                _auto_init
+00053f76                __args_main
+00053fc1                __remli
+0005400c                __divli
+00054054                _memcpy
+00054093                _exit
+000540d1                _c_int00
+00054105                __fixdi
+0005412f                I$$UDIV
+0005412f                __divu
+00054144                I$$UMOD
+00054144                __remu
+00054159                _memccpy
+0005417c                ___isinf
+00054198                __subd
+000541ac                I$$LMPY
+000541ac                __mpyli
+000541bf                __register_unlock
+000541c7                __register_lock
+000541cf                __nop
+000541d1                __negd
+000541e1                _remove
+000541eb                _abort
+000541ec                C$$EXIT
+            00030000    __ftable
+            00030078    __tmpnams
+            00030118    __ft_end
+            000301ea    ___atexit_func_id__
+            00030324    __lock
+            00030326    __unlock
+            00030328    __cleanup_ptr
+            0003032a    __dtors_ptr
+            0003032e    _dtors
+            00030330    __ctypes_
+            001d8000    ___cinit__
+            001d8000    cinit
+ffffffff                ___binit__
+ffffffff                ___c_args__
+ffffffff                ___pinit__
+ffffffff                binit
+ffffffff                pinit
+
+[355 symbols]
