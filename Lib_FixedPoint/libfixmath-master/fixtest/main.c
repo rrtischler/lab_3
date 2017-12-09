@@ -4,7 +4,7 @@
 #include <time.h>
 #include <inttypes.h>
 
-#include <libfixmath/fixmath.h>
+#include "../libfixmath/fixmath.h"
 
 #include "hiclock.h"
 
