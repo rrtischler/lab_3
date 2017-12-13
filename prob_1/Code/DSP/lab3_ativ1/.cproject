@@ -42,13 +42,13 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER.1372781553" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH.610890097" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\C55xxCSL\include"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\include"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\C55xxCSL\include"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\include"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PREINCLUDE.550844450" name="Specify a preinclude file (--preinclude)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PREINCLUDE" valueType="includeFiles">
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\include\ezdsp5502.h"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\C55xxCSL\include\csl.h"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\include\ezdsp5502.h"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\C55xxCSL\include\csl.h"/>
 								</option>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS.1574783620" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__C_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS.969892691" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compiler.inputType__CPP_SRCS"/>
@@ -65,14 +65,14 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER.1759179909" name="Emit diagnostic identifier numbers (--display_error_number)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH.2017315813" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH" valueType="libPaths">
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\C55xxCSL\lib"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\lib"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\C55xxCSL\lib"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\lib"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY.601131891" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="libc.a"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\lib\ezdsp5502bsl.lib"/>
-									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\docs\PBL\lab_3\Docs\Ambientacao com o CCS\ezdsp5502_v1\C55xxCSL\lib\csl5502.lib"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\lib\ezdsp5502bsl.lib"/>
+									<listOptionValue builtIn="false" value="F:\Google Drive\UFBA\2017.2\Lab3\ccs_workspace\ezdsp5502_v1\C55xxCSL\lib\csl5502.lib"/>
 								</option>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS.532405253" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS.1162096160" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.exeLinker.inputType__CMD2_SRCS"/>
