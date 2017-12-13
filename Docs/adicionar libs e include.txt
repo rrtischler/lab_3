@@ -1,0 +1,18 @@
+Para usar a lib da placa, tem que colocar o include e lib nas propriedades do projeto. 
+A pasta está no zip dos código que usamos em sala, aqueles que testamos led, switch, etc: 
+http://support.spectrumdigital.com/boards/ezdsp5502/revc/files/ezdsp5502_BSL_RevC.zip
+
+build > c5500 compiler > include options
+include
+c55xxcsl\include
+-------------
+ezdsp5502
+csl.h
+
+
+build > c5500 linker > file search path
+lib
+c55xxcsl\lib
+--------------
+ezdsp5502
+csl5502.lib
