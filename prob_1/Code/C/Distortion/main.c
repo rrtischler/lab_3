@@ -1,25 +1,70 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
-#define  SAMPLE_SIZE 57
 
-int main(int argc, char const *argv[]) {
+unsigned char wavHd[44];
 
+void distortion(double inSamples[], int tam);
 
-	static const double X[SAMPLE_SIZE] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.390625000000000,-0.414062500000000,-0.289062500000000,
-	-0.117187500000000,-0.0312500000000000, -0.0312500000000000,-0.0625000000000000,-0.0234375000000000,0.0234375000000000,
-	0.0703125000000000,0.109375000000000,0.156250000000000,0.203125000000000,0.242187500000000,0.218750000000000,0,
-	-0.164062500000000,-0.140625000000000,-0.0156250000000000,0.195312500000000,0.320312500000000,0.320312500000000,
-	0.242187500000000,0.242187500000000,0.265625000000000,0.304687500000000,0.289062500000000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+void main()
+{
+  FILE *inFile;
 
+  char buffer;
+  double sample;
+  int i;
+
+  inFile = fopen("dspafsx_mono.wav", "rb");
+
+  if (inFile == NULL)
+  {
+    printf("Can't open dspafsx_mono.wav");
+    return;
+  }
+
+  // Read input wav file header
+  fread(wavHd, sizeof(char), 44, inFile);
+
+  int dataSize = wavHd[40] |
+                 (wavHd[41] << 8) |
+                 (wavHd[42] << 16) |
+                 (wavHd[43] << 24 );
+
+  double inSamples[dataSize];
+  while( (fread(&buffer, sizeof(char), 1, inFile) == 1) )
+  {
+
+    inSamples[i] = ((char)(buffer ^ 0x80 & 255))/128.;
+    i++;
+  }
+  distortion(inSamples, dataSize);
+
+  fclose(inFile);
+}
+
+void distortion(double X[], int tam){
+	
+	FILE *outFile;
+	outFile = fopen("distortionC.wav", "wb");
+	char buff[1];
+
+	//setando o novo tamanho no header
+	unsigned char *p = (unsigned char*)&tam;
+	wavHd[40] = p[3];
+	wavHd[41] = p[2];
+	wavHd[42] = p[1];
+	wavHd[43] = p[0];
+
+	fwrite(wavHd, sizeof(unsigned char), 44, outFile);
+  
 	int i;
 	double d = 200;
-	double Y[SAMPLE_SIZE];
-	double Y_atan[SAMPLE_SIZE];
+	double Y[tam];
+	double Y_atan[tam];
 
 	// calculo do arco tangente para cada amostra
 	printf("###### Calculo do arco tangente:\n");
-	for (i = 0; i < SAMPLE_SIZE; i++) {
+	for (i = 0; i < tam; i++) {
 		Y_atan[i] = atan((0.1 + 2 * d )* X[i]);
 		printf("%.4f | ", Y_atan[i]);
 	}
@@ -28,7 +73,7 @@ int main(int argc, char const *argv[]) {
 	// normaliza��o
 	double sx = 0;
 	printf("###### Calculo do 'sx':\n");
-	for (i = 0; i < SAMPLE_SIZE; i++) {
+	for (i = 0; i < tam; i++) {
 		if(X[i] < 0){
 			sx = sx + (X[i] * -1);
 		}else{
@@ -40,7 +85,7 @@ int main(int argc, char const *argv[]) {
 
 	double sy = 0;
 	printf("###### Calculo do 'sy':\n");
-	for (i = 0; i < SAMPLE_SIZE; i++) {
+	for (i = 0; i < tam; i++) {
 		if(Y_atan[i] < 0){
 			sy = sy + (Y_atan[i] * -1);
 		}else{
@@ -58,10 +103,18 @@ int main(int argc, char const *argv[]) {
 
 	// Calculo para obten��o do resultado
 	printf("###### Resultado:\n");
-	for (i = 0; i < SAMPLE_SIZE; i++) {
+	for (i = 0; i < tam; i++) {
 		Y[i] = sr * Y_atan[i];
 		printf("%.4f | ", Y[i]);
+		buff[0] = (char)(((char)(Y[i]*128)) ^ 0x80);
+		fwrite(buff, sizeof(char), 1, outFile);
 	}
-
-	return 0;
+	
+	fclose(outFile);
 }
+
+
+
+
+
+
