@@ -14,7 +14,8 @@ X = [X ; R];
 Z = [R ; att * X];
 Y = zeros(length(n),1);
 
-Y(n) = X(n) + Z(n);
+Y(n) = X(n) + Z(n); 
     
 Y = Y * max(abs(X))/max(abs(Y));
+
 end
