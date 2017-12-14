@@ -14,8 +14,8 @@ ORDERED_OBJS += \
 "../lnkx.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
--l"F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/lib/ezdsp5502bsl.lib" \
--l"F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" \
+-l"F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/lib/ezdsp5502bsl.lib" \
+-l"F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" \
 
 -include ../makefile.init
 
@@ -142,7 +142,7 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 lab3_ativ1.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C5500 Linker'
-	"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"lab3_ativ1.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/C55xxCSL/lib" -i"F:/Google Drive/UFBA/2017.2/Lab3/docs/PBL/lab_3/Docs/Ambientacao com o CCS/ezdsp5502_v1/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="lab3_ativ1_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "lab3_ativ1.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"lab3_ativ1.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/C55xxCSL/lib" -i"F:/Google Drive/UFBA/2017.2/Lab3/ccs_workspace/ezdsp5502_v1/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="lab3_ativ1_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "lab3_ativ1.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
