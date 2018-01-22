@@ -15,7 +15,6 @@
 #define Q 15
 #define K (1 << (Q - 1))
 
-
     Int16 samples[NUMNEWSAMPLES];
     Int16 preSample[NUMNEWSAMPLES];
     Int16 outSample[NUMNEWSAMPLES];
@@ -37,7 +36,6 @@ Int16 sat16(Int32 r);
 
 int main(void)
 {
-
     zerarBuffers();
 
     wavReader();
@@ -47,7 +45,8 @@ int main(void)
     return 0;
 }
 
-void wavReader(){
+void wavReader()
+{
     FILE *inFile;
     FILE *outFile;
     inFile = fopen("..\\Data\\dspafsx_mono.wav", "rb");

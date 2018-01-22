@@ -1,0 +1,497 @@
+******************************************************************************
+              TMS320C55x Linker PC v4.3.8                      
+******************************************************************************
+>> Linked Thu Oct 27 12:02:34 2011
+
+OUTPUT FILE NAME:   <sdram.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 0000493f
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+                        (bytes)   (bytes)    (bytes)   (bytes)
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  MMR                   00000000   000000c0  00000000  000000c0  RWIX
+  BTRSVD                000000c0   00000240  00000000  00000240  RWIX
+  DARAM                 00000300   0000fb00  0000a386  0000577a  RWIX
+  VECS                  0000fe00   00000200  00000100  00000100  RWIX
+  CE0                   00010000   003f0000  00000000  003f0000  RWIX
+  CE1                   00400000   00400000  00000000  00400000  RWIX
+  CE2                   00800000   00400000  00000000  00400000  RWIX
+  CE3                   00c00000   003f8000  00000000  003f8000  RWIX
+  PDROM                 00ff8000   00008000  00000000  00008000  R IX
+
+PAGE 2:
+  IOPORT                00000000   00020000  00000000  00020000  RWI 
+
+
+SECTION ALLOCATION MAP
+(Addresses surrounded by []'s are displayed for convenience only!)
+
+output                                                          attributes/
+section   page  orgn(bytes) orgn(words) len(bytes) len(words)   input sections
+--------  ----  ----------- ----------- ---------- ----------   --------------
+.text        0     00000300  [ 00000180 ] 000047a0          *   
+                   00000300  [ 00000180 ] 00001598          *   rts55x.lib : _printfi.obj (.text)
+                   00001898  [ 00000c4c ] 00000543          *              : lowlev.obj (.text)
+                   00001ddb  [ 00000eed+] 00000528          *              : trgdrv.obj (.text)
+                   00002303  [ 00001181+] 000004b5          *              : memory.obj (.text)
+                   000027b8  [ 000013dc ] 0000036c          *              : divd.obj (.text)
+                   00002b24  [ 00001592 ] 0000027f          *              : fopen.obj (.text)
+                   00002da3  [ 000016d1+] 0000025e          *              : llmpy.obj (.text)
+                   00003001  [ 00001800+] 00000259          *              : addd.obj (.text)
+                   0000325a  [ 0000192d ] 000001ea          *              : cmpd.obj (.text)
+                   00003444  [ 00001a22 ] 0000018e          *   csl5502x.lib : i2c_write.obj (.text:I2C_write)
+                   000035d2  [ 00001ae9 ] 00000163          *   rts55x.lib : fputs.obj (.text)
+                   00003735  [ 00001b9a+] 00000002          *              : vectors.obj (.text)
+                   00003737  [ 00001b9b ] 00000001          *   --HOLE-- [fill = 20]
+                   00003738  [ 00001b9c ] 0000015d          *   csl5502x.lib : i2c_read.obj (.text:I2C_read)
+                   00003895  [ 00001c4a+] 0000014e          *   ezdsp5502bsl.lib : ezdsp5502_i2cgpio.obj (.text)
+                   000039e3  [ 00001cf1+] 0000014c          *   rts55x.lib : mpyd.obj (.text)
+                   00003b2f  [ 00001d97+] 0000013b          *   sdram_test.obj (.text)
+                   00003c6a  [ 00001e35 ] 000000e6          *   rts55x.lib : setvbuf.obj (.text)
+                   00003d50  [ 00001ea8 ] 000000dd          *              : _io_perm.obj (.text)
+                   00003e2d  [ 00001f16+] 000000c8          *              : frcmpyd_div.obj (.text)
+                   00003ef5  [ 00001f7a+] 000000c2          *              : fflush.obj (.text)
+                   00003fb7  [ 00001fdb+] 000000ba          *              : trgmsg.obj (.text:CIO_breakpoint)
+                   00004071  [ 00002038+] 000000a6          *              : fputc.obj (.text)
+                   00004117  [ 0000208b+] 000000a1          *              : divul.obj (.text)
+                   000041b8  [ 000020dc ] 0000007d          *              : ltoa.obj (.text)
+                   00004235  [ 0000211a+] 0000007b          *              : fclose.obj (.text)
+                   000042b0  [ 00002158 ] 00000076          *              : frcmpyd.obj (.text)
+                   00004326  [ 00002193 ] 00000002          *   --HOLE-- [fill = 20]
+                   00004328  [ 00002194 ] 00000072          *   csl5502x.lib : i2c_cfg.obj (.text:I2C_config)
+                   0000439a  [ 000021cd ] 00000072          *   rts55x.lib : remul.obj (.text)
+                   0000440c  [ 00002206 ] 0000006f          *   ezdsp5502bsl.lib : ezdsp5502.obj (.text)
+                   0000447b  [ 0000223d+] 0000006f          *   rts55x.lib : fixdli.obj (.text)
+                   000044ea  [ 00002275 ] 0000006d          *   ezdsp5502bsl.lib : ezdsp5502_i2c.obj (.text)
+                   00004557  [ 000022ab+] 0000006d          *   rts55x.lib : trgmsg.obj (.text)
+                   000045c4  [ 000022e2 ] 0000006b          *              : fseek.obj (.text)
+                   0000462f  [ 00002317+] 00000067          *              : fltlid.obj (.text)
+                   00004696  [ 0000234b ] 0000005c          *              : atoi.obj (.text)
+                   000046f2  [ 00002379 ] 00000055          *   main.obj (.text)
+                   00004747  [ 000023a3+] 00000050          *   rts55x.lib : printf.obj (.text)
+                   00004797  [ 000023cb+] 0000004d          *              : autoinit.obj (.text)
+                   000047e4  [ 000023f2 ] 0000004b          *              : args_main.obj (.text)
+                   0000482f  [ 00002417+] 0000004b          *              : remli.obj (.text)
+                   0000487a  [ 0000243d ] 00000048          *              : divli.obj (.text)
+                   000048c2  [ 00002461 ] 0000003f          *              : memcpy.obj (.text)
+                   00004901  [ 00002480+] 0000003e          *              : exit.obj (.text)
+                   0000493f  [ 0000249f+] 00000034          *              : boot.obj (.text)
+                   00004973  [ 000024b9+] 0000002a          *              : fixdi.obj (.text)
+                   0000499d  [ 000024ce+] 0000002a          *              : udiv.obj (.text)
+                   000049c7  [ 000024e3+] 00000023          *              : memccpy.obj (.text)
+                   000049ea  [ 000024f5 ] 0000001c          *              : isinf.obj (.text)
+                   00004a06  [ 00002503 ] 00000014          *              : subd.obj (.text)
+                   00004a1a  [ 0000250d ] 00000013          *              : lmpy.obj (.text)
+                   00004a2d  [ 00002516+] 00000012          *              : _lock.obj (.text)
+                   00004a3f  [ 0000251f+] 00000010          *              : negd.obj (.text)
+                   00004a4f  [ 00002527 ] 00000001          *   --HOLE-- [fill = 20]
+                   00004a50  [ 00002528 ] 0000000f          *   csl5502x.lib : irq_gdisab.obj (.text:IRQ_globalDisable)
+                   00004a5f  [ 0000252f ] 00000001          *   --HOLE-- [fill = 20]
+                   00004a60  [ 00002530 ] 0000000d          *                : _csl_init.obj (.text:_CSL_init)
+                   00004a6d  [ 00002536 ] 00000003          *   --HOLE-- [fill = 20]
+                   00004a70  [ 00002538 ] 0000000c          *                : csl.obj (.text:CSL_init)
+                   00004a7c  [ 0000253e ] 0000000c          *                : irq_grest.obj (.text:IRQ_globalRestore)
+                   00004a88  [ 00002544 ] 0000000a          *   rts55x.lib : remove.obj (.text)
+                   00004a92  [ 00002549 ] 00000007          *              : exit.obj (.text:CIO_breakpoint)
+                   00004a99  [ 0000254c ] 00000003          *   --HOLE-- [fill = 20]
+                   00004a9c  [ 0000254e ] 00000002          *   csl5502x.lib : csl.obj (.text)
+                   00004a9e  [ 0000254f ] 00000002          *   --HOLE-- [fill = 20]
+
+.data        0   [ 00000300 ]  00000180          *   00000000   
+
+.pinit       0   [ 00000300 ]  00000180          *   00000000   
+
+.stack       0   [ 00004aa0 ]  00002550          *   00001000   
+                 [ 00004aa0 ]  00002550          *   00001000   --HOLE-- [fill = 00]
+
+.sysmem      0   [ 00006aa0 ]  00003550          *   00001000   UNINITIALIZED
+                 [ 00006aa0 ]  00003550          *   00001000   --HOLE--
+
+.sysstack 
+*            0   [ 00008aa0 ]  00004550          *   00000800   
+                 [ 00008aa0 ]  00004550          *   00000800   --HOLE-- [fill = 00]
+
+.bss         0   [ 00009aa0 ]  00004d50          *   0000026a   
+                 [ 00009aa0 ]  00004d50          *   00000119   rts55x.lib : defs.obj (.bss) [fill = 00]
+                 [ 00009cd2 ]  00004e69          *   000000d0              : trgdrv.obj (.bss) [fill = 00]
+                 [ 00009e72 ]  00004f39          *   00000001   main.obj (.bss) [fill = 00]
+                 [ 00009e74 ]  00004f3a          *   00000071   rts55x.lib : lowlev.obj (.bss) [fill = 00]
+                 [ 00009f56 ]  00004fab          *   00000001              : fopen.obj (.bss) [fill = 00]
+                 [ 00009f58 ]  00004fac          *   00000006              : memory.obj (.bss) [fill = 00]
+                 [ 00009f64 ]  00004fb2          *   00000004              : _lock.obj (.bss) [fill = 00]
+                 [ 00009f6c ]  00004fb6          *   00000004              : exit.obj (.bss) [fill = 00]
+
+.const       0   [ 00009f80 ]  00004fc0          *   000001aa   
+                 [ 00009f80 ]  00004fc0          *   00000101   rts55x.lib : ctype.obj (.const:__ctypes_)
+                 [ 0000a182 ]  000050c1          *   00000001   --HOLE-- [fill = 00]
+                 [ 0000a184 ]  000050c2          *   0000005f   main.obj (.const:.string)
+                 [ 0000a242 ]  00005121          *   00000001   --HOLE-- [fill = 00]
+                 [ 0000a244 ]  00005122          *   00000024   rts55x.lib : _printfi.obj (.const:.string)
+                 [ 0000a28c ]  00005146          *   0000000c              : _printfi.obj (.const)
+                 [ 0000a2a4 ]  00005152          *   0000000a   ezdsp5502bsl.lib : ezdsp5502_i2c.obj (.const:_$P$T0$1)
+                 [ 0000a2b8 ]  0000515c          *   00000008   rts55x.lib : divd.obj (.const:_initial_approx$1)
+                 [ 0000a2c8 ]  00005164          *   00000002              : fputs.obj (.const:.string)
+                 [ 0000a2cc ]  00005166          *   00000002              : divd.obj (.const)
+                 [ 0000a2d0 ]  00005168          *   00000002              : fltlid.obj (.const)
+
+.cio         0   [ 0000a2e0 ]  00005170          *   00000120   
+                 [ 0000a2e0 ]  00005170          *   00000120   rts55x.lib : trgmsg.obj (.cio) [fill = 00]
+
+.cinit       0   [ 0000a520 ]  00005290          *   0000009d   
+                 [ 0000a520 ]  00005290          *   0000002d   rts55x.lib : lowlev.obj (.cinit)
+                 [ 0000a57a ]  000052bd          *   0000002a              : defs.obj (.cinit)
+                 [ 0000a5ce ]  000052e7          *   00000025   csl5502x.lib : csl_csldat.obj (.cinit)
+                 [ 0000a618 ]  0000530c          *   0000000a   rts55x.lib : _lock.obj (.cinit)
+                 [ 0000a62c ]  00005316          *   0000000a              : exit.obj (.cinit)
+                 [ 0000a640 ]  00005320          *   00000004   main.obj (.cinit)
+                 [ 0000a648 ]  00005324          *   00000004   rts55x.lib : fopen.obj (.cinit)
+                 [ 0000a650 ]  00005328          *   00000004              : memory.obj (.cinit)
+                 [ 0000a658 ]  0000532c          *   00000001   --HOLE-- [fill = 0]
+
+.csldata     0   [ 0000a660 ]  00005330          *   00000022   
+                 [ 0000a660 ]  00005330          *   00000022   csl5502x.lib : csl_csldat.obj (.csldata:SYS_data) [fill = 00]
+
+vectors      0     0000fe00  [ 00007f00 ] 00000100          *   
+                   0000fe00  [ 00007f00 ] 00000100          *   rts55x.lib : vectors.obj (vectors)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+00000001                $TI_capability_requires_rev2
+            00004d50    .bss
+            00000180    .data
+00000300                .text
+00004a93                C$$EXIT
+0000406c                C$$IO$$
+00004a1a                I$$LMPY
+0000499d                I$$UDIV
+000049b2                I$$UMOD
+00004a9c                _CSL5502_LIB_
+            00005330    _CSL_SysData
+00004a70                _CSL_init
+00003895                _EZDSP5502_I2CGPIO_configLine
+0000396c                _EZDSP5502_I2CGPIO_read
+000038e8                _EZDSP5502_I2CGPIO_readLine
+000039b9                _EZDSP5502_I2CGPIO_write
+00003919                _EZDSP5502_I2CGPIO_writeLine
+000044ea                _EZDSP5502_I2C_init
+00004533                _EZDSP5502_I2C_read
+00004507                _EZDSP5502_I2C_reset
+00004511                _EZDSP5502_I2C_write
+00004462                _EZDSP5502_init
+0000441c                _EZDSP5502_wait
+00004450                _EZDSP5502_waitusec
+000022a5                _HOSTclock
+0000223a                _HOSTclose
+00002185                _HOSTlseek
+000020e6                _HOSTopen
+00002059                _HOSTread
+00001fab                _HOSTrename
+00001f4d                _HOSTtime
+00001ee3                _HOSTunlink
+00001e56                _HOSTwrite
+00004328                _I2C_config
+00003738                _I2C_read
+00003444                _I2C_write
+00004a50                _IRQ_globalDisable
+00004a7c                _IRQ_globalRestore
+00003b2f                _MEM_addr
+00003bad                _MEM_addrInv
+0000fe00                _Reset
+000046f2                _StopTest
+            00004f39    _TestFail
+            00005170    __CIOBUF_
+00004a60                __CSL_init
+            00003550    __STACK_END
+00002000                __STACK_SIZE
+00002000                __SYSMEM_SIZE
+00001000                __SYSSTACK_SIZE
+ffffffff                ___binit__
+            00004d50    ___bss__
+ffffffff                ___c_args__
+            00005290    ___cinit__
+            00000180    ___data__
+            00000180    ___edata__
+            00004fba    ___end__
+00004aa0                ___etext__
+000049ea                ___isinf
+ffffffff                ___pinit__
+00000300                ___text__
+00003001                __addd
+000047e4                __args_main
+00002c45                __cleanup
+            00004fb6    __cleanup_ptr
+000033ec                __cmpd
+            00004fc0    __ctypes_
+000027da                __divd
+0000487a                __divli
+00002fcc                __divlli
+0000499d                __divu
+00004117                __divul
+00002ed8                __divull
+00003ef5                __doflush
+            00004fb8    __dtors_ptr
+000033b8                __eqld
+00004973                __fixdi
+0000447b                __fixdli
+0000462f                __fltlid
+000042b0                __frcmpyd
+00003e2d                __frcmpyd_div
+            00004e68    __ft_end
+            00004d50    __ftable
+0000336e                __geqd
+00003323                __gtrd
+000032d6                __leqd
+            00004fb2    __lock
+0000328e                __lssd
+000039e3                __mpyd
+00004a1a                __mpyli
+00002e20                __mpylli
+00004a3f                __negd
+0000325a                __neqd
+00004a3d                __nop
+00001656                __printfi
+00003dd0                __rd_ok
+00004a35                __register_lock
+00004a2d                __register_unlock
+0000482f                __remli
+00002df1                __remlli
+000049b2                __remu
+0000439a                __remul
+00002da3                __remull
+            00002550    __stack
+00004a06                __subd
+            00003550    __sys_memory
+            00004550    __sysstack
+            00004dc8    __tmpnams
+            00004fb4    __unlock
+00003d50                __wrt_ok
+00004a92                _abort
+00001ceb                _add_device
+00004696                _atoi
+00004797                _auto_init
+0000493f                _c_int00
+00002792                _calloc
+0000278a                _chkheap
+00001c78                _close
+00004901                _exit
+00004235                _fclose
+00003f5e                _fflush
+00001c6f                _find_registered_device
+00002d68                _fopen
+00004071                _fputc
+000035d2                _fputs
+00002303                _free
+00002734                _free_memory
+00002c9f                _freopen
+000045c4                _fseek
+00001ddb                _getenv
+00001c09                _lseek
+000041b8                _ltoa
+000046f4                _main
+00002434                _malloc
+000026da                _max_free
+000049c7                _memccpy
+000048c2                _memcpy
+000023cf                _minit
+00001b4a                _open
+00004747                _printf
+00004071                _putc
+00004108                _putchar
+00003707                _puts
+00001a9c                _read
+00004557                _readmsg
+00002529                _realloc
+00004a88                _remove
+00001a66                _remove_device
+00001a0d                _rename
+00003c2f                _sdram_test
+00003c6a                _setvbuf
+000019da                _unlink
+00001898                _write
+00003fb7                _writemsg
+ffffffff                binit
+            00005290    cinit
+            00000180    edata
+            00004fba    end
+00004aa0                etext
+ffffffff                pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+abs. value/
+byte addr   word addr   name
+---------   ---------   ----
+00000001                $TI_capability_requires_rev2
+00000002                $TI_capability$C5500$CallingConvention
+00000002                $TI_capability$C5500$MemoryModel
+            00000180    .data
+00000300                .text
+            00000180    ___data__
+            00000180    ___edata__
+00000300                ___text__
+            00000180    edata
+00001000                __SYSSTACK_SIZE
+00001656                __printfi
+00001898                _write
+000019da                _unlink
+00001a0d                _rename
+00001a66                _remove_device
+00001a9c                _read
+00001b4a                _open
+00001c09                _lseek
+00001c6f                _find_registered_device
+00001c78                _close
+00001ceb                _add_device
+00001ddb                _getenv
+00001e56                _HOSTwrite
+00001ee3                _HOSTunlink
+00001f4d                _HOSTtime
+00001fab                _HOSTrename
+00002000                __STACK_SIZE
+00002000                __SYSMEM_SIZE
+00002059                _HOSTread
+000020e6                _HOSTopen
+00002185                _HOSTlseek
+0000223a                _HOSTclose
+000022a5                _HOSTclock
+00002303                _free
+000023cf                _minit
+00002434                _malloc
+00002529                _realloc
+000026da                _max_free
+00002734                _free_memory
+0000278a                _chkheap
+00002792                _calloc
+000027da                __divd
+00002c45                __cleanup
+00002c9f                _freopen
+00002d68                _fopen
+00002da3                __remull
+00002df1                __remlli
+00002e20                __mpylli
+00002ed8                __divull
+00002fcc                __divlli
+00003001                __addd
+0000325a                __neqd
+0000328e                __lssd
+000032d6                __leqd
+00003323                __gtrd
+0000336e                __geqd
+000033b8                __eqld
+000033ec                __cmpd
+00003444                _I2C_write
+000035d2                _fputs
+00003707                _puts
+00003738                _I2C_read
+00003895                _EZDSP5502_I2CGPIO_configLine
+000038e8                _EZDSP5502_I2CGPIO_readLine
+00003919                _EZDSP5502_I2CGPIO_writeLine
+0000396c                _EZDSP5502_I2CGPIO_read
+000039b9                _EZDSP5502_I2CGPIO_write
+000039e3                __mpyd
+00003b2f                _MEM_addr
+00003bad                _MEM_addrInv
+00003c2f                _sdram_test
+00003c6a                _setvbuf
+00003d50                __wrt_ok
+00003dd0                __rd_ok
+00003e2d                __frcmpyd_div
+00003ef5                __doflush
+00003f5e                _fflush
+00003fb7                _writemsg
+0000406c                C$$IO$$
+00004071                _fputc
+00004071                _putc
+00004108                _putchar
+00004117                __divul
+000041b8                _ltoa
+00004235                _fclose
+000042b0                __frcmpyd
+00004328                _I2C_config
+0000439a                __remul
+0000441c                _EZDSP5502_wait
+00004450                _EZDSP5502_waitusec
+00004462                _EZDSP5502_init
+0000447b                __fixdli
+000044ea                _EZDSP5502_I2C_init
+00004507                _EZDSP5502_I2C_reset
+00004511                _EZDSP5502_I2C_write
+00004533                _EZDSP5502_I2C_read
+00004557                _readmsg
+000045c4                _fseek
+0000462f                __fltlid
+00004696                _atoi
+000046f2                _StopTest
+000046f4                _main
+00004747                _printf
+00004797                _auto_init
+000047e4                __args_main
+0000482f                __remli
+0000487a                __divli
+000048c2                _memcpy
+00004901                _exit
+0000493f                _c_int00
+00004973                __fixdi
+0000499d                I$$UDIV
+0000499d                __divu
+000049b2                I$$UMOD
+000049b2                __remu
+000049c7                _memccpy
+000049ea                ___isinf
+00004a06                __subd
+00004a1a                I$$LMPY
+00004a1a                __mpyli
+00004a2d                __register_unlock
+00004a35                __register_lock
+00004a3d                __nop
+00004a3f                __negd
+00004a50                _IRQ_globalDisable
+00004a60                __CSL_init
+00004a70                _CSL_init
+00004a7c                _IRQ_globalRestore
+00004a88                _remove
+00004a92                _abort
+00004a93                C$$EXIT
+00004a9c                _CSL5502_LIB_
+00004aa0                ___etext__
+            00002550    __stack
+00004aa0                etext
+            00003550    __STACK_END
+            00003550    __sys_memory
+            00004550    __sysstack
+            00004d50    .bss
+            00004d50    ___bss__
+            00004d50    __ftable
+            00004dc8    __tmpnams
+            00004e68    __ft_end
+            00004f39    _TestFail
+            00004fb2    __lock
+            00004fb4    __unlock
+            00004fb6    __cleanup_ptr
+            00004fb8    __dtors_ptr
+            00004fba    ___end__
+            00004fba    end
+            00004fc0    __ctypes_
+            00005170    __CIOBUF_
+            00005290    ___cinit__
+            00005290    cinit
+            00005330    _CSL_SysData
+0000fe00                _Reset
+ffffffff                ___binit__
+ffffffff                ___c_args__
+ffffffff                ___pinit__
+ffffffff                binit
+ffffffff                pinit
+
+[161 symbols]

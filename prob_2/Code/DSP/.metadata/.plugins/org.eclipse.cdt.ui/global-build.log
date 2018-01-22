@@ -1,0 +1,177 @@
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../hello.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/THD_trab" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'hello.obj' failed
+"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_chiphal.h", line 201: fatal error #35: #error NO CHIP DEFINED
+1 fatal error detected in the compilation of "../hello.c".
+Compilation terminated.
+gmake: *** [hello.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.d
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../hello.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/THD_trab" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'hello.obj' failed
+"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_chiphal.h", line 201: fatal error #35: #error NO CHIP DEFINED
+1 fatal error detected in the compilation of "../hello.c".
+Compilation terminated.
+gmake: *** [hello.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.d
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../hello.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/THD_trab" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/Ambienta√ß√£o com o CCS/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/Ambienta√ß√£o com o CCS/ezdsp5502_v1/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/Ambienta√ß√£o com o CCS/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/Ambienta√ß√£o com o CCS/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'hello.obj' failed
+Fatal error #5: could not open source file "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/Ambienta√ß√£o com o CCS/ezdsp5502_v1/include/ezdsp5502.h"
+1 fatal error detected in the compilation of "../hello.c".
+Compilation terminated.
+gmake: *** [hello.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "THD_trab.hex"  "THD_trab.out" 
+DEL /F "hello.obj" 
+DEL /F "hello.d" 
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\THD_trab.hex
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.obj
+N∆o foi poss°vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\DSP\THD_trab\Debug\hello.d
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../hello.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/THD_trab" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+'Finished building: ../hello.c'
+' '
+'Building target: THD_trab.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"THD_trab.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="THD_trab_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "THD_trab.out" "./hello.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/lib/ezdsp5502bsl.lib" 
+<Linking>
+'Finished building target: THD_trab.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'THD_trab.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'THD_trab.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'THD_trab.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project THD_trab ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'THD_trab.out' is up to date.
+
+**** Build Finished ****

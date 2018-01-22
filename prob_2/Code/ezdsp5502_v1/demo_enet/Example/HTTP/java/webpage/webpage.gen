@@ -1,0 +1,10 @@
+#pragma DATA_SECTION(user, ".sdram")
+/*******************************************************************************
+  user_type: used for creating a directory list for webserver. The passwordfree
+  username 'webserver' is the keyword for the HTTP-server to access all pages.
+  The first directory entry is the default webpage.
+*******************************************************************************/
+user_type user[] = {
+{"webserver", "*" ,&clock,&dicon,&e400,&e404,&e501,&favicon,&index,&ledoff,&ledon,0},
+0                                           /* don't forget a final zero! */
+};

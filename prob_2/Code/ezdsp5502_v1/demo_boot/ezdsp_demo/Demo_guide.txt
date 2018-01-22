@@ -1,0 +1,61 @@
+
+eZdsp5502 demo_boot Guide
+-------------------------
+
+The eZdsp5502 ships with a bootable demo in SPI Flash the highlights some basic board
+features.  The demo is programmed into the SPI Flash and runs automatically when power
+is applied to the board by plugging J2 into a USB port on a PC.
+
+The demo:
+
+    1)  Displays some text and graphics on the OLED display.
+    2)  Toggles the LEDs on the board.
+    3)  Plays an audio tone on the headphone output (J3).
+
+The user can press the following switches on the board to alter the behavior of the demo:
+
+    SW1 - Toggle between two different LED blink rates.
+    SW2 - Toggle between two different audio frequencies.
+
+Most of the code consists of initialization steps called from the main() function of main.c.
+These initialization steps are grouped into three major sections and are described briefly
+below:
+
+Section 1 - Demo Initialization
+
+  initPLL( )        :  Initialzes the PLL and sets it up to run at 300 MHz.
+  EZDSP5502_init( ) :  This function is part of the BSL. It initializes the I2C bus and LEDs.
+  initLed( )        :  Initialzes the I2C GPIOs to work as LED drivers.
+  configPort( )     :  Configure MUXs to connect McBSP to AIC3204.
+  initTimer0( )     :  Initialize on chip timer and its interrupt to a period of 1 sec.
+  initAIC3204( )    :  Setup AIC3204 as a master for sample rate of 48KHz, 32-bit stereo mode.
+  configAudioDma( ) :  Configure DMA to supply the McBSP with values from a 1KHz sine table
+                       triggered by the McBSP module.
+
+
+Section 2 - Start demo
+
+  startAudioDma ( )       :  Allow DMA to start supplying values from a 1KHz sine table to McBSP.
+  EZDSP5502_MCBSP_init( ) :  Initialize McBSP for audio transfer.
+  startTimer0( )          :  Start the timer.
+  oled_start( )           :  Configure and Display output on OLED display
+
+
+Section 3 - Infinite Loop
+
+  Next the demo software runs in an infinite loop while checking for the timer interrupt and
+  switch presses.
+
+  checkTimer( )   :  Checks for the timer interrupt. Each time the timer interrupt is triggered
+                     the state of XF and the next LED on the board are toggled.
+  checkSwitch( )  :  Checks if either of the switches SW1 or SW2 were pressed.
+                     If SW1 was pressed the timer is toggled between 250ms and 1sec and is reinitialzed.
+                     If SW1 was pressed the DMA is toggled between 1KHz and 2KHz sine table.
+
+
+This project can be modified and run from within Code Composer studio.  Changing the boot contents
+of your eZdsp requires packing a .out file in boot table formatted .hex file using the TI's hex
+utility and programming the contents using a SPI Flash writer.  You can download a version of the boot
+demo packaged with the pieces needed to do this on the eZdsp5502 support page:
+
+    http://support.spectrumdigital.com/boards/ezdsp5502
