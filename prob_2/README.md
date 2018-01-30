@@ -27,3 +27,11 @@
 5. https://dsp.stackexchange.com/questions/32173/how-to-estimate-thd
 
 6. https://dsp.stackexchange.com/questions/32173/how-to-estimate-thd
+
+7. https://groups.google.com/forum/#!topic/comp.soft-sys.matlab/7d7hxgormBg
+
+8. https://www.microsemi.com/document-portal/doc_view/134813-an30-basic-total-harmonic-distortion-thd-measurement
+
+9. https://www.venea.net/web/q_format_conversion
+
+10. https://www.mathworks.com/matlabcentral/fileexchange/18413-q15-to-decimal-converter
