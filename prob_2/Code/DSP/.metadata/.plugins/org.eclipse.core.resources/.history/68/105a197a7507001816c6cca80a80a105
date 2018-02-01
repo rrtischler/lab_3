@@ -1,0 +1,156 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
+#include "ezdsp5502.h"
+
+#define UPPERLIMIT 0x7FFF
+#define LOWERLIMIT 0x8000
+#define BUFFERSIZE    1
+#define FS  16000
+#define OFFSET 200
+#define ATT 0x4000 //0.5 em q15
+#define NUMNEWSAMPLES 2048
+
+#define Q 15
+#define K (1 << (Q - 1))
+
+    Int16 samples[NUMNEWSAMPLES];
+    Int16 preSample[NUMNEWSAMPLES];
+    Int16 outSample[NUMNEWSAMPLES];
+
+    Uint8 buffer[BUFFERSIZE];
+    Uint8 wavHd[44];
+
+    Uint16 maxIn = 0;
+    Uint16 maxOut = 0;
+
+
+void delay();
+void wavReader();
+void zerarBuffers();
+Int16 soma(Int16 a, Int16 b);
+Int16 q_mul(Int16 a, Int16 b);
+Int16 sat16(Int32 r);
+
+
+int main(void)
+{
+    zerarBuffers();
+
+    dataReader();
+
+    return 0;
+}
+
+void dataReader()
+{
+    FILE *inFile;
+    FILE *outFile;
+    inFile = fopen("data/dataQ15.txt", "rb");
+    if (inFile == NULL){
+      printf("Can't open dataQ15.txt");
+      return;
+    }
+//    outFile = fopen("..\\Data\\delayDSP.wav", "wb");
+//    if (outFile == NULL){
+//          printf("Can't open delayDSP.wav");
+//          return;
+//    }
+
+    // ler o header do input
+//    fread(wavHd, sizeof(Uint8), 44, inFile);
+
+    //escrever o header no output com o novo tamanho
+//    wavHd[40] = (Uint8) 0xE0;
+//    wavHd[41] = (Uint8) 0xF6;
+//    fwrite(wavHd, sizeof(Uint8), 44, outFile);
+
+    //Uint32 dataSize = wavHd[40] | (wavHd[41] << 8);
+
+    Uint32 i = 0, j, count = 0;;
+
+    while( (fread(buffer, sizeof(Int8), BUFFERSIZE, inFile) == BUFFERSIZE ) ) {
+
+        samples[i++] = (Int16)((Int8)((buffer[0] ^ 0x80) & 0xFF)) << 8 ;
+        if (i%NUMNEWSAMPLES == 0){
+            delay((Int32)NUMNEWSAMPLES);
+            i = 0;
+            //escrever as amostras com efeito no arquivo de saida
+            for (j = 0; j < NUMNEWSAMPLES; j++){
+                // desloca 8 bits pra direita e alterna o bit de sinal, que no wav tá ao contrario
+                buffer[0] = (Int8)(outSample[j] >> 8) ^ 0x80;
+                fwrite(buffer, sizeof(Int8), 1, outFile);
+            }
+            printf("%ld\n", count++);
+        }
+    }
+
+    //chega aqui com 2400 amostras em samples[] sem processar
+    //e 3200 (buffer cheio) em preSamples
+    delay(2400);
+    for (j = 0; j < 2400; j++){
+        buffer[0] = (Int8)(outSample[j] >> 8) ^ 0x80;
+        fwrite(buffer, sizeof(Int8), 1, outFile);
+    }
+
+    //escrever ultimos samples, que estao só atenuados
+    for (j = 2400; j < NUMNEWSAMPLES; j++){
+        buffer[0] = (Int8)(preSample[j] >> 8) ^ 0x80;
+        fwrite(buffer, sizeof(Int8), 1, outFile);
+    }
+
+    for (j = 0; j < 2400; j++){
+        buffer[0] = (Int8)(preSample[j] >> 8) ^ 0x80;
+        fwrite(buffer, sizeof(Int8), 1, outFile);
+    }
+
+    fclose(inFile);
+    fclose(outFile);
+}
+
+void zerarBuffers(){
+    int i;
+    for (i= 0; i < 3200; i++){
+        samples[i] = 0;
+        preSample[i] = 0;
+        outSample[i] = 0;
+    }
+}
+
+// samples tem as amostras lidas
+// preSample tem as atenuacoes das ultimas amostras lidas
+// presamples[i] = atenuacao * samples[i]
+// outSamples = samples[i] + preSamples[i]
+void delay(Int32 numSamples ){
+    Int32  i;
+    for(i = 0; i < numSamples; i++){
+        outSample[i] = soma(samples[i], preSample[i]);
+        preSample[i] = q_mul(samples[i], ATT);
+    }
+}
+
+Int16 soma(Int16 a, Int16 b){
+    long r;
+    r = (Int32)a + (Int32)b;
+    return sat16(r);
+}
+
+Int16 sat16(Int32 r){
+    if ( r > UPPERLIMIT)
+        r = UPPERLIMIT;
+    else if (r < (Int16)-0x8000)
+        r = (Int16)-0x8000;
+    return (Int16)r;
+}
+
+Int16 q_mul(Int16 a, Int16 b){
+    Int16 result;
+    Int32 temp;
+    temp = (Int32)a * (Int32)b; // result type is operand's type
+    // Rounding; mid values are rounded up
+    temp += K;
+    // Correct by dividing by base and saturate result
+    result = sat16(temp >> Q);
+    return result;
+}

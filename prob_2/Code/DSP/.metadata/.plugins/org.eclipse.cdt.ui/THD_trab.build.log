@@ -1,7 +1,8 @@
 
 **** Build of configuration Debug for project THD_trab ****
 
-"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
-gmake[1]: 'THD_trab.out' is up to date.
+/opt/ti/ccsv7/utils/bin/gmake -k -j 4 all -O 
+ 
+hello.d:4: *** target pattern contains no '%'.  Stop.
 
 **** Build Finished ****

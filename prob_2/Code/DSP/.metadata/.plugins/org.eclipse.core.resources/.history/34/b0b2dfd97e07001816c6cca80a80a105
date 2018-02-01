@@ -1,0 +1,81 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+LIB_SRCS += \
+../dsplib/build/ccsv3_3/Debug/dsplib.lib 
+
+OBJ_SRCS += \
+../dsplib/build/ccsv3_3/Debug/DLMS.obj \
+../dsplib/build/ccsv3_3/Debug/abias.obj \
+../dsplib/build/ccsv3_3/Debug/add.obj \
+../dsplib/build/ccsv3_3/Debug/araw.obj \
+../dsplib/build/ccsv3_3/Debug/arct2.obj \
+../dsplib/build/ccsv3_3/Debug/atan16.obj \
+../dsplib/build/ccsv3_3/Debug/aubias.obj \
+../dsplib/build/ccsv3_3/Debug/bexp.obj \
+../dsplib/build/ccsv3_3/Debug/cbias.obj \
+../dsplib/build/ccsv3_3/Debug/cbrev.obj \
+../dsplib/build/ccsv3_3/Debug/cbrev32.obj \
+../dsplib/build/ccsv3_3/Debug/cfft32_noscale.obj \
+../dsplib/build/ccsv3_3/Debug/cfft32_scale.obj \
+../dsplib/build/ccsv3_3/Debug/cfft_noscale.obj \
+../dsplib/build/ccsv3_3/Debug/cfft_scale.obj \
+../dsplib/build/ccsv3_3/Debug/cfir.obj \
+../dsplib/build/ccsv3_3/Debug/cifft32_noscale.obj \
+../dsplib/build/ccsv3_3/Debug/cifft32_scale.obj \
+../dsplib/build/ccsv3_3/Debug/cifft_noscale.obj \
+../dsplib/build/ccsv3_3/Debug/cifft_scale.obj \
+../dsplib/build/ccsv3_3/Debug/convol.obj \
+../dsplib/build/ccsv3_3/Debug/convol1.obj \
+../dsplib/build/ccsv3_3/Debug/convol2.obj \
+../dsplib/build/ccsv3_3/Debug/craw.obj \
+../dsplib/build/ccsv3_3/Debug/cubias.obj \
+../dsplib/build/ccsv3_3/Debug/decimate.obj \
+../dsplib/build/ccsv3_3/Debug/dlmsfast.obj \
+../dsplib/build/ccsv3_3/Debug/expn.obj \
+../dsplib/build/ccsv3_3/Debug/fir.obj \
+../dsplib/build/ccsv3_3/Debug/fir2.obj \
+../dsplib/build/ccsv3_3/Debug/firlat.obj \
+../dsplib/build/ccsv3_3/Debug/firs.obj \
+../dsplib/build/ccsv3_3/Debug/fltoq15.obj \
+../dsplib/build/ccsv3_3/Debug/hilb16.obj \
+../dsplib/build/ccsv3_3/Debug/iircas32.obj \
+../dsplib/build/ccsv3_3/Debug/iircas4.obj \
+../dsplib/build/ccsv3_3/Debug/iircas5.obj \
+../dsplib/build/ccsv3_3/Debug/iircas51.obj \
+../dsplib/build/ccsv3_3/Debug/iirlat.obj \
+../dsplib/build/ccsv3_3/Debug/interp.obj \
+../dsplib/build/ccsv3_3/Debug/ldiv16.obj \
+../dsplib/build/ccsv3_3/Debug/log_10.obj \
+../dsplib/build/ccsv3_3/Debug/log_2.obj \
+../dsplib/build/ccsv3_3/Debug/logn.obj \
+../dsplib/build/ccsv3_3/Debug/maxidx.obj \
+../dsplib/build/ccsv3_3/Debug/maxidx34.obj \
+../dsplib/build/ccsv3_3/Debug/maxval.obj \
+../dsplib/build/ccsv3_3/Debug/maxvec.obj \
+../dsplib/build/ccsv3_3/Debug/minidx.obj \
+../dsplib/build/ccsv3_3/Debug/minval.obj \
+../dsplib/build/ccsv3_3/Debug/minvec.obj \
+../dsplib/build/ccsv3_3/Debug/mmul.obj \
+../dsplib/build/ccsv3_3/Debug/mtrans.obj \
+../dsplib/build/ccsv3_3/Debug/mul32.obj \
+../dsplib/build/ccsv3_3/Debug/neg.obj \
+../dsplib/build/ccsv3_3/Debug/neg32.obj \
+../dsplib/build/ccsv3_3/Debug/power.obj \
+../dsplib/build/ccsv3_3/Debug/q15tofl.obj \
+../dsplib/build/ccsv3_3/Debug/rand16.obj \
+../dsplib/build/ccsv3_3/Debug/rand16i.obj \
+../dsplib/build/ccsv3_3/Debug/recip16.obj \
+../dsplib/build/ccsv3_3/Debug/sine.obj \
+../dsplib/build/ccsv3_3/Debug/sqrtv.obj \
+../dsplib/build/ccsv3_3/Debug/sub.obj \
+../dsplib/build/ccsv3_3/Debug/twiddle.obj \
+../dsplib/build/ccsv3_3/Debug/twiddle32.obj \
+../dsplib/build/ccsv3_3/Debug/unpack.obj \
+../dsplib/build/ccsv3_3/Debug/unpack32.obj \
+../dsplib/build/ccsv3_3/Debug/unpacki.obj \
+../dsplib/build/ccsv3_3/Debug/unpacki32.obj 
+
+

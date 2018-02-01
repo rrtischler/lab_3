@@ -1,0 +1,13 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+main.obj: ../main.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C5500 Compiler'
+	"/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/DSP/thd" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/dsplib/include" --include_path="/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw" $(GEN_OPTS__FLAG) "$(shell echo $<)"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

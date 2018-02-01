@@ -1,0 +1,34 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+dsplib/twiddle/twid2048.obj: ../dsplib/twiddle/twid2048.asm $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C5500 Compiler'
+	"/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/DSP/thd" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="dsplib/twiddle/twid2048.d_raw" --obj_directory="dsplib/twiddle" $(GEN_OPTS__FLAG) "$(shell echo $<)"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+dsplib/twiddle/twid4096.obj: ../dsplib/twiddle/twid4096.asm $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C5500 Compiler'
+	"/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/DSP/thd" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="dsplib/twiddle/twid4096.d_raw" --obj_directory="dsplib/twiddle" $(GEN_OPTS__FLAG) "$(shell echo $<)"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+dsplib/twiddle/twiddle.obj: ../dsplib/twiddle/twiddle.asm $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C5500 Compiler'
+	"/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/DSP/thd" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="dsplib/twiddle/twiddle.d_raw" --obj_directory="dsplib/twiddle" $(GEN_OPTS__FLAG) "$(shell echo $<)"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+dsplib/twiddle/twiddle32.obj: ../dsplib/twiddle/twiddle32.asm $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: C5500 Compiler'
+	"/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/DSP/thd" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="/opt/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="dsplib/twiddle/twiddle32.d_raw" --obj_directory="dsplib/twiddle" $(GEN_OPTS__FLAG) "$(shell echo $<)"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+

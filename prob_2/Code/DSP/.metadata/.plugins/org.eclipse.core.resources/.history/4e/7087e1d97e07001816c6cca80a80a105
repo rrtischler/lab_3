@@ -1,0 +1,11 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+LIB_SRCS += \
+../dsplib/lib/55xdsp_r3.lib \
+../dsplib/lib/55xdsph_r3.lib \
+../dsplib/lib/55xdspx_r3.lib 
+
+

@@ -1,1 +1,0 @@
-"./hello.obj" "../lnkx.cmd" -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_1/Docs/add_includes/ezdsp5502_v1/lib/ezdsp5502bsl.lib" 
