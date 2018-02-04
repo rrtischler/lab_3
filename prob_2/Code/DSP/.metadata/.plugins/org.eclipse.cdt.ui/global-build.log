@@ -10923,3 +10923,1450 @@ Finished building target: "thd.out"
  
 
 **** Build Finished ****
+19:03:59 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:04:25 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:05:34 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:07:43 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+19:07:43 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+19:07:43 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:07:49 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:10:08 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:10:09 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:10:09 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+19:10:09 **** Clean-only build of configuration Debug for project thd ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ti/ccsv7/eclipse/jre/bin/client;C:/ti/ccsv7/eclipse/jre/bin;C:/ti/ccsv7/eclipse/jre/lib/i386;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Users\shayr\AppData\Local\Microsoft\WindowsApps;;C:\ti\ccsv7\eclipse;]
+
+**** Build of configuration Debug for project thd ****
+
+Nothing to build for project thd
+
+**** Clean-only build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "thd.hex"  "thd.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 26: warning #522-D: initialization with "{...}" expected for aggregate object
+"../main.c", line 26: error #29: expected an expression
+"../main.c", line 29: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 29: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 30: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 31: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 32: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+"../main.c", line 33: error #41: expected an identifier
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 87: warning #225-D: function declared implicitly
+"../main.c", line 104: error #20: identifier "line" is undefined
+"../main.c", line 106: error #20: identifier "input" is undefined
+"../main.c", line 103: warning #179-D: variable "j" was declared but never referenced
+"../main.c", line 103: warning #179-D: variable "count" was declared but never referenced
+"../main.c", line 128: error #161: declaration is incompatible with previous "fft" (declared at line 87)
+"../main.c", line 130: error #110: expression must have (pointer-to-) function type
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 87: warning #225-D: function declared implicitly
+"../main.c", line 104: error #20: identifier "line" is undefined
+"../main.c", line 106: error #20: identifier "input" is undefined
+"../main.c", line 103: warning #179-D: variable "j" was declared but never referenced
+"../main.c", line 103: warning #179-D: variable "count" was declared but never referenced
+"../main.c", line 128: error #161: declaration is incompatible with previous "fft" (declared at line 87)
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 105: error #20: identifier "line" is undefined
+"../main.c", line 107: error #20: identifier "input" is undefined
+"../main.c", line 104: warning #179-D: variable "j" was declared but never referenced
+"../main.c", line 104: warning #179-D: variable "count" was declared but never referenced
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "1" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "1" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 26: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #28: expression must have a constant value
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #28: expression must have a constant value
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #28: expression must have a constant value
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 28: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 29: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 30: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "unsigned int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 31: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 27: error #145: a value of type "int" cannot be used to initialize an entity of type "DATA *"
+"../main.c", line 110: error #169: argument of type "DATA **" is incompatible with parameter of type "DATA *"
+"../main.c", line 110: error #169: argument of type "DATA **" is incompatible with parameter of type "DATA *"
+"../main.c", line 110: error #169: argument of type "DATA **" is incompatible with parameter of type "DATA *"
+"../main.c", line 110: error #169: argument of type "DATA **" is incompatible with parameter of type "DATA *"
+9 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "1" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "1" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=huge -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+>> ERROR: Only --ptrdiff_size=32 is allowed for huge memory model
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16020: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" specifies "C55x CPU Rev 3.x", which is not compatible with
+   "C55x CPU Rev 2.x" specified in a previous file or on the command line
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16020: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" specifies "C55x CPU Rev 3.x", which is not compatible with
+   "C55x CPU Rev 2.x" specified in a previous file or on the command line
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "1" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'thd.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'thd.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'thd.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+fatal error #16020: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r
+   3.lib<cbrev.obj>" specifies "C55x CPU Rev 3.x", which is not compatible with
+   "C55x CPU Rev 2.x" specified in a previous file or on the command line
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5504 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsp_r3.lib" 
+<Linking>
+'Finished building target: "thd.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'thd.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("1"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdspx_r3.lib" 
+<Linking>
+fatal error #16020: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdspx_
+   r3.lib<cbrev.obj>" specifies "C55x CPU Rev 3.x", which is not compatible
+   with "C55x CPU Rev 2.x" specified in a previous file or on the command line
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdspx_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdspx_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "2" that is
+   different than one previously seen ("1"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=small -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("1"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=huge -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+>> ERROR: Only --ptrdiff_size=32 is allowed for huge memory model
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+gmake[1]: *** [thd.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project thd ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/DSP/thd" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=32 --asm_source=mnemonic --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "thd.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=32 --asm_source=mnemonic -z -m"thd.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="thd_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "thd.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_r3.lib" 
+<Linking>
+fatal error #16004: file
+   "E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/lib/55xdsph_
+   r3.lib<cbrev.obj>" has a Tag_Memory_Model attribute value of "3" that is
+   different than one previously seen ("2"); combining incompatible files
+
+>> Compilation failure
+makefile:144: recipe for target 'thd.out' failed
+makefile:140: recipe for target 'all' failed
+gmake[1]: *** [thd.out] Error 1
+gmake: *** [all] Error 2
+
+**** Build Finished ****

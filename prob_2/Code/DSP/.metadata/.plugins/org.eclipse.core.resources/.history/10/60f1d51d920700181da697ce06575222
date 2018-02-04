@@ -1,8 +1,0 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
-USER_OBJS :=
-
-LIBS := -llibc.a -l"/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"/home/shay/Documents/UFBA/2017.2/Lab3/Lab3_project/git_Project/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib"
-
