@@ -39,12 +39,11 @@ main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C
 main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/_csl.h
 main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_irqhal.h
 main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_err.h
+main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/stdio.h
 main.obj: C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/stdlib.h
-main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/math.h
-main.obj: C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/string.h
-main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/stdio.h
-main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h
-main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/tms320.h
+main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/math.h
+main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/dsplib.h
+main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/tms320.h
 
 ../main.c: 
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h: 
@@ -85,9 +84,8 @@ E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/in
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/_csl.h: 
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_irqhal.h: 
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl_err.h: 
+E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/stdio.h: 
 C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/stdlib.h: 
-E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/math.h: 
-C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/string.h: 
-E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/stdio.h: 
-E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/Dsplib.h: 
-E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/dsplib/include/tms320.h: 
+E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/math.h: 
+E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/dsplib.h: 
+E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/tms320.h: 

@@ -40,13 +40,13 @@
 									<listOptionValue builtIn="false" value="${PROJECT_ROOT}"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\C55xxCSL\include"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\include"/>
-									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\dsplib\include"/>
+									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\sprc100\dsplib_2.40.00\include"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PREINCLUDE.266224901" name="Specify a preinclude file (--preinclude)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.PREINCLUDE" valueType="includeFiles">
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\include\ezdsp5502.h"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\C55xxCSL\include\csl.h"/>
-									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\dsplib\include\Dsplib.h"/>
+									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\sprc100\dsplib_2.40.00\include\Dsplib.h"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER.383401268" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING.2024187040" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.compilerID.DIAG_WARNING" valueType="stringList">
@@ -68,13 +68,13 @@
 									<listOptionValue builtIn="false" value="libc.a"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\lib\ezdsp5502bsl.lib"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\C55xxCSL\lib\csl5502.lib"/>
-									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\dsplib\lib\55xdsph_r3.lib"/>
+									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\sprc100\dsplib_2.40.00\55xdspx.lib"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH.25245593" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.SEARCH_PATH" valueType="libPaths">
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/lib"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\C55xxCSL\lib"/>
 									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\ezdsp5502_v1\lib"/>
-									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\dsplib\lib"/>
+									<listOptionValue builtIn="false" value="E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_2\Code\sprc100\dsplib_2.40.00"/>
 									<listOptionValue builtIn="false" value="${CG_TOOL_ROOT}/include"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER.605635745" name="Emit diagnostic identifier numbers (--display_error_number)" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.4.linkerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>

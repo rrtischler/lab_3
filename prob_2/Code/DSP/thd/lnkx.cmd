@@ -67,4 +67,5 @@ SECTIONS
 	vectors:  >  VECS
 
    .ioport   >  IOPORT PAGE 2         /* Global & static ioport vars */
+   .fftcode  > DARAM0 PAGE 0
 }
