@@ -1,0 +1,140 @@
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../VC5502.cmd" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+"../lnkx.cmd", line 33: error #10263: MMR memory range has already been
+
+   specified
+>> Compilation failure
+makefile:145: recipe for target 'fir_iir.out' failed
+"../lnkx.cmd", line 33: error #10264: MMR memory range overlaps existing memory
+   range MMR
+"../lnkx.cmd", line 34: error #10264: BTRSVD memory range overlaps existing
+   memory range DARAM0
+"../lnkx.cmd", line 35: error #10263: DARAM0 memory range has already been
+   specified
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM0
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM1
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM2
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM3
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM4
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM5
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM6
+"../lnkx.cmd", line 35: error #10264: DARAM0 memory range overlaps existing
+   memory range DARAM7
+"../lnkx.cmd", line 36: error #10264: VECS memory range overlaps existing
+   memory range DARAM7
+"../lnkx.cmd", line 36: error #10263: VECS memory range has already been
+   specified
+"../lnkx.cmd", line 37: error #10263: CE0 memory range has already been
+   specified
+"../lnkx.cmd", line 37: error #10264: CE0 memory range overlaps existing memory
+   range CE0
+"../lnkx.cmd", line 38: error #10263: CE1 memory range has already been
+   specified
+"../lnkx.cmd", line 38: error #10264: CE1 memory range overlaps existing memory
+   range CE1
+"../lnkx.cmd", line 39: error #10263: CE2 memory range has already been
+   specified
+"../lnkx.cmd", line 39: error #10264: CE2 memory range overlaps existing memory
+   range CE2
+"../lnkx.cmd", line 40: error #10263: CE3 memory range has already been
+   specified
+"../lnkx.cmd", line 40: error #10264: CE3 memory range overlaps existing memory
+   range CE3
+"../lnkx.cmd", line 41: error #10264: PDROM memory range overlaps existing
+   memory range ROM
+"../lnkx.cmd", line 41: error #10264: PDROM memory range overlaps existing
+   memory range VECS
+"../VC5502.cmd", line 43: error #10099-D: program will not fit into available
+   memory.  run placement with alignment/blocking fails for section ".stack"
+   size 0x2000 page 0.  Available memory ranges:
+   DARAM0       size: 0x1f40       unused: 0x1f40       max hole: 0x1f40    
+error #10010: errors encountered during linking; "fir_iir.out" not built
+gmake[1]: *** [fir_iir.out] Error 1
+gmake: *** [all] Error 2
+makefile:141: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "fir_iir.hex"  "fir_iir.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+NÆo foi poss¡vel encontrar E:\Shay_user\Desktop\UFBA\2017.2\Lab3\lab_3\prob_3\Code\DSP\fir_iir\Debug\fir_iir.hex
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_2/Code/sprc100/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****

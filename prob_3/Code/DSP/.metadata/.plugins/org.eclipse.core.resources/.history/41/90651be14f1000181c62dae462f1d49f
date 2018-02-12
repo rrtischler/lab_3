@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include "ezdsp5502.h"
+#include "dsplib.h"
+
+/**
+ * main.c
+ */
+int main(void){
+
+    return 0;
+}
