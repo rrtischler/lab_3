@@ -16,8 +16,9 @@
 int main(void){
     ushort nx = NX;
     ushort nh = NH;         //ordem do filtro
-    DATA h[nh] = {};        //coeficientes
-    DATA dbuffer[nh+2];     //buffer de atraso (contém os valores de entrada atrasados)
+    ushort nh2 = NH + 2;
+    DATA h[NH];             //coeficientes
+    DATA dbuffer[NH+2];     //buffer de atraso (contém os valores de entrada atrasados)
     DATA out[NX];
     DATA samples[NX] =  {
                              0x7fff, 0x7fff, 0x7b81, 0x738c, 0x68d0, 0x5ba8, 0x4c76, 0x3ba5, 0x299c, 0x16c3, 0x037e, 0xf034, 0xdd4a, 0xcb29, 0xba3a, 0xaae2,
