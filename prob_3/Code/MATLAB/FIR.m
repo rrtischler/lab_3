@@ -10,5 +10,5 @@ plot(t, x)
 fn = (fs/2);            %frequencia de nyquist 
 fc = f1;                %frequencia de corte
 %passa baixa
-h = fir1(100,fc/fn);
+h = fir1(224,fc/fn);
 freqz(h,1,50);

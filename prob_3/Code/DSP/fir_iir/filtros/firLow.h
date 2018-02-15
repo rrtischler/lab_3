@@ -18,8 +18,10 @@
  *   Use the Filter Design & Analysis Tool to design accurate
  *   uint16 filter coefficients.
  */
-const int BL = 224;
-const uint16_T B[224] = {
+#include "dsplib.h"
+#define BL 224
+//const int BL = 224;
+DATA H[BL] = {
         3,      1,      0,      0,      0,      0,      0,      0,      0,
         0,      0,      0,      0,     64,    102,     98,     57,      0,
         0,      0,      0,      0,     29,     67,     73,     42,      0,

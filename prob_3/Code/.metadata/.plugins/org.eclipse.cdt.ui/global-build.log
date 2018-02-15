@@ -1,0 +1,134 @@
+
+**** Clean-only build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "fir_iir.hex"  "fir_iir.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****

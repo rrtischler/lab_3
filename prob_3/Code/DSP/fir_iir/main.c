@@ -3,6 +3,7 @@
 #include<math.h>
 #include "ezdsp5502.h"
 #include "dsplib.h"
+#include "filtros/firLow.h"
 
 #define NX 2048
 #define FS 2048
@@ -13,13 +14,16 @@
 
 //ushort oflag = fir (DATA *x, DATA *h, DATA *output, DATA *dbuffer, ushort nx, ushort nh);
 
-int main(void){
+void zerarVetores();
+void showOutFIR();
+
     ushort nx = NX;
     ushort nh = NH;         //ordem do filtro
     ushort nh2 = NH + 2;
-    DATA h[NH];             //coeficientes
     DATA dbuffer[NH+2];     //buffer de atraso (contém os valores de entrada atrasados)
     DATA out[NX];
+
+int main(void){
     DATA samples[NX] =  {
                              0x7fff, 0x7fff, 0x7b81, 0x738c, 0x68d0, 0x5ba8, 0x4c76, 0x3ba5, 0x299c, 0x16c3, 0x037e, 0xf034, 0xdd4a, 0xcb29, 0xba3a, 0xaae2,
                              0x9d7d, 0x9261, 0x89d2, 0x8405, 0x811d, 0x812c, 0x8432, 0x8a1c, 0x92c7, 0x9dfc, 0xab76, 0xbae1, 0xcbde, 0xde08, 0xf0f8, 0x0444,
@@ -150,6 +154,29 @@ int main(void){
                              0x1787, 0x0444, 0xf0f8, 0xde08, 0xcbde, 0xbae1, 0xab76, 0x9dfc, 0x92c7, 0x8a1c, 0x8432, 0x812c, 0x811d, 0x8405, 0x89d2, 0x9261,
                              0x9d7d, 0xaae2, 0xba3a, 0xcb29, 0xdd4a, 0xf034, 0x037e, 0x16c3, 0x299c, 0x3ba5, 0x4c76, 0x5ba8, 0x68d0, 0x738c, 0x7b81, 0x7fff
                             };
+    zerarVetores();
+    //Filtro FIR passa-baixas
+    ushort oflag = fir (samples, H, out, dbuffer, nx, nh);
+    printf("%u\n",oflag);
+    showOutFIR();
+    //Filtro FIR passa-faixa
+    //Filtro FIR passa-alta
 
     return 0;
 }
+void showOutFIR(){
+    int i;
+    for(i=0; i<NX;i++){
+        printf("%d ",out[i]);
+    }
+}
+void zerarVetores(){
+    int i;
+    for(i=0; i<NH+2; i++){
+       dbuffer[i] = 0;
+   }
+   for(i=0; i<NX; i++){
+       out[i] = 0;
+   }
+}
+
