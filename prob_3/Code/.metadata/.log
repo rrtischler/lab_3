@@ -467,3 +467,93 @@ Caused by: java.lang.IllegalArgumentException:
 !MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2dfac7): Status ERROR: com.ti.ccstudio.debug code=20003 Target must be connected before calling the function null' resulted in an error.
 !SUBENTRY 1 com.ti.ccstudio.debug 4 20003 2018-02-14 23:20:53.921
 !MESSAGE Target must be connected before calling the function
+!SESSION 2018-02-15 14:20:25.428 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-02-15 14:20:54.184
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-02-15 14:20:54.186
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+!SESSION 2018-02-15 15:08:53.612 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-02-15 15:09:44.521
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 4 0 2018-02-15 15:09:48.515
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-02-15 15:09:48.517
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.osgi 2 0 2018-02-15 15:10:11.870
+!MESSAGE While loading class "org.eclipse.core.resources.IWorkspaceRoot", thread "Thread[Worker-0,5,main]" timed out waiting (7787ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.core.resources_3.11.0.v20160503-1608 [102]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.core.resources.IWorkspaceRoot" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="3.11.0.v20160503-1608"; osgi.identity="org.eclipse.core.resources"; singleton:="true" [id=102] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:407)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.cdt.internal.core.model.CModel.buildStructure(CModel.java:190)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildrenOfType(Parent.java:67)
+	at org.eclipse.cdt.internal.core.model.CModel.getCProjects(CModel.java:51)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.postStartup(PDOMManager.java:257)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager$2.run(PDOMManager.java:223)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 23 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:334)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:407)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:361)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:353)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.cdt.internal.core.model.CModel.buildStructure(CModel.java:190)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildrenOfType(Parent.java:67)
+	at org.eclipse.cdt.internal.core.model.CModel.getCProjects(CModel.java:51)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.postStartup(PDOMManager.java:257)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager$2.run(PDOMManager.java:223)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2018-02-15 15:14:36.758
+!MESSAGE Unexpected CCS exit detected [15/02/18 14:21]!!!

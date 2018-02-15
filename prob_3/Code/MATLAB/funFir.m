@@ -18,9 +18,5 @@ periodogram(y, rectwin(length(y)), length(y), fs);
 
 figure;
 freqz(Num,1);
-
-
-
-
 end
 

@@ -132,3 +132,423 @@ gmake[1]: 'fir_iir.out' is up to date.
 gmake[1]: 'fir_iir.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\filtros/firLow.h", line 18: error #17: expected a "]"
+"..\filtros/firLow.h", line 18: error #171: expected a declaration
+"..\filtros/firLow.h", line 42: warning #12-D: parsing restarts here after previous syntax error
+"..\filtros/firHigh.h", line 17: warning #48-D: incompatible redefinition of macro "BL" (declared at line 17 of "..\filtros/firLow.h")
+"..\filtros/firHigh.h", line 18: error #17: expected a "]"
+"..\filtros/firHigh.h", line 18: error #171: expected a declaration
+"..\filtros/firHigh.h", line 43: warning #12-D: parsing restarts here after previous syntax error
+"..\filtros/firBand.h", line 17: warning #48-D: incompatible redefinition of macro "BL" (declared at line 17 of "..\filtros/firHigh.h")
+"..\filtros/firBand.h", line 18: error #17: expected a "]"
+"..\filtros/firBand.h", line 18: error #171: expected a declaration
+"..\filtros/firBand.h", line 42: warning #12-D: parsing restarts here after previous syntax error
+6 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "ef88" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "e000" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "dcb1" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "dcab" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "da11" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "d57f" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #20: identifier "d333" is undefined
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+"..\samplesIn/samplesHex.h", line 6: error #19: extra text after expected end of number
+"..\samplesIn/samplesHex.h", line 6: error #30: floating constant is out of range
+Error limit reached.
+100 errors detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+"../main.c", line 67: error #20: identifier "outFile" is undefined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include" --include_path="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include" --include_path="C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\filtros/firHigh.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firLow.h")
+"..\filtros/firBand.h", line 18: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firHigh.h")
+"..\samplesIn/samplesHex.h", line 3: warning #48-D: incompatible redefinition of macro "BL" (declared at line 18 of "..\filtros/firBand.h")
+'Finished building: "../main.c"'
+ 
+'Building target: "fir_iir.out"'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/bin/cl55" -v5502 --memory_model=large -g --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/include/csl.h" --preinclude="E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/Dsplib.h" --define=c5502 --display_error_number --diag_warning=225 --ptrdiff_size=16 -z -m"fir_iir.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib" -i"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00" -i"C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include" --reread_libs --display_error_number --warn_sections --xml_link_info="fir_iir_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "fir_iir.out" "./main.obj" "../lnkx.cmd"  -llibc.a -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/lib/ezdsp5502bsl.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/C55xxCSL/lib/csl5502.lib" -l"E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/55xdspx.lib" 
+<Linking>
+'Finished building target: "fir_iir.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fir_iir ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'fir_iir.out' is up to date.
+
+**** Build Finished ****
