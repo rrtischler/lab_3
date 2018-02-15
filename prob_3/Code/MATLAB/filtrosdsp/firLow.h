@@ -13,9 +13,20 @@
  * Linear Phase      : Yes (Type 1)
  */
 
-#include "dsplib.h"
-#define BL 199;
-DATA B[BL] = {
+/* General type conversion for MATLAB generated C-code  */
+#include "tmwtypes.h"
+/* 
+ * Expected path to tmwtypes.h 
+ * C:\Program Files\MATLAB\R2016a\extern\include\tmwtypes.h 
+ */
+/*
+ * Warning - Filter coefficients were truncated to fit specified data type.  
+ *   The resulting response may not match generated theoretical response.
+ *   Use the Filter Design & Analysis Tool to design accurate
+ *   int16 filter coefficients.
+ */
+const int BL = 199;
+const int16_T B[199] = {
       -29,    -27,    -38,    -49,    -59,    -68,    -74,    -77,    -74,
       -66,    -53,    -34,    -10,     16,     45,     73,     98,    118,
       132,    137,    133,    121,    101,     74,     44,     13,    -16,
