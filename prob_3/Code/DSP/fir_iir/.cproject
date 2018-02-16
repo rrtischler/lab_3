@@ -87,6 +87,11 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="ezdsp5502_v1|dsplib_2.40.00|VC5502.cmd" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ezdsp5502_v1/tests"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ezdsp5502_v1/demo_enet"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ezdsp5502_v1/demo_boot"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ezdsp5502_v1/C55xxCSL/examples"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ezdsp5502_v1/C55xxCSL/doc"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

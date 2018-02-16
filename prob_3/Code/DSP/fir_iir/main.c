@@ -43,7 +43,7 @@ int main(void){
 
 //    //Filtro FIR passa-faixa
 //    zerarVetores();
-//    oflag = fir (samplesIn, HHigh, out, dbuffer, nx, nh);
+//    oflag = fir (samplesIn, HBand, out, dbuffer, nx, nh);
 //    printf("\n\noflag: %u\n",oflag);
 //    printf("Sinal filtrado com passa faixa\n");
 //    showOutFIR();
@@ -51,7 +51,7 @@ int main(void){
 
     //Filtro FIR passa-alta
     zerarVetores();
-    oflag = fir (samplesIn, HBand, out, dbuffer, nx, nh2);
+    oflag = fir (samplesIn, HHigh, out, dbufferHigh, nx, nh2);
     printf("\n\noflag: %u\n",oflag);
     printf("Sinal filtrado com passa alta\n");
     showOutFIR();

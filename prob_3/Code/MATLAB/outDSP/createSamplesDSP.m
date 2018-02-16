@@ -19,4 +19,4 @@ x = 1*cos(2*pi*f1*t) + 0.5*cos(2*pi*f2*t) + 0.2*cos(2*pi*f3*t);
 %xfft = fft(x);
 %fn = (fs/2);            %frequencia de nyquist 
 
-plot(t, x) 
+% plot(t, x) 
