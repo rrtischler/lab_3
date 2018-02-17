@@ -3,83 +3,59 @@
 #include<math.h>
 #include "ezdsp5502.h"
 #include "dsplib.h"
-#include "filtros/firLow.h"
-#include "filtros/firHigh.h"
-#include "filtros/firBand.h"
+
 #include "samplesIn/samplesHex.h"
 
-#define NX 1000
-#define FS 1000
-#define NH 199
-#define NHHigh 215
 
-/**
- * main.c
- */
+//=========================================
+//        ESCOLHER O FILTRO AQUI
+//=========================================
 
-//ushort oflag = fir (DATA *x, DATA *h, DATA *output, DATA *dbuffer, ushort nx, ushort nh);
+//#include "filtros/firLow.h"
+//#include "filtros/firHigh.h"
+//#include "filtros/firBand.h"
+#include "filtros/iirLow.h"
+//#include "filtros/iirBand.h"
+//#include "filtros/iirHigh.h"
+
 
 void zerarVetores();
-void showOutFIR();
-void writeOutFIR();
-
-    ushort nx = NX;
-    ushort nh = NH;                 //ordem do filtro
-    ushort nh2 = NHHigh;
-    DATA dbuffer[NH+2];             //buffer de atraso (contém os valores de entrada atrasados)
-    DATA dbufferHigh[NHHigh+2];     //buffer de atraso (contém os valores de entrada atrasados)
-    DATA out[NX];
-    ushort oflag;
+void printOUT();
+void printFileOUT();
 
 int main(void){
 
-//    //Filtro FIR passa-baixas
-//    zerarVetores();
-//    oflag = fir (samplesIn, HLow, out, dbuffer, nx, nh);
-//    printf("\n\noflag: %u\n",oflag);
-//    printf("Sinal filtrado com passa baixas\n");
-//    showOutFIR();
-//    writeOutFIR();
-
-//    //Filtro FIR passa-faixa
-//    zerarVetores();
-//    oflag = fir (samplesIn, HBand, out, dbuffer, nx, nh);
-//    printf("\n\noflag: %u\n",oflag);
-//    printf("Sinal filtrado com passa faixa\n");
-//    showOutFIR();
-//    writeOutFIR();
-
-    //Filtro FIR passa-alta
     zerarVetores();
-    oflag = fir (samplesIn, HHigh, out, dbufferHigh, nx, nh2);
-    printf("\n\noflag: %u\n",oflag);
-    printf("Sinal filtrado com passa alta\n");
-    showOutFIR();
-    writeOutFIR();
+
+    filter();
+
+//    printOUT();
+    printFileOUT();
 
     return 0;
 }
 
-void showOutFIR(){
+void printOUT(){
     int i;
     for(i=0; i<NX;i++){
         printf("%d ",out[i]);
     }
 }
 
-void writeOutFIR(){
+void printFileOUT(){
     FILE *outFile;
-    outFile = fopen("..\\outDSP\\outfirDSPAlta.txt", "w");
+    outFile = fopen(FILENAME, "w");
     int i;
-    for(i=0; i<NX;i++){
-        fprintf(outFile,"%d ",out[i]);
-        printf("%d ",out[i]);
+    for(i=0; i<NX; i++){
+        fprintf(outFile, "%d ", out[i]);
+//        printf("%d ", out[i]);
+//        printf("%d ", i);
     }
 }
 
 void zerarVetores(){
     int i;
-    for(i=0; i<NH+2; i++){
+    for(i=0; i<NBUFF; i++){
        dbuffer[i] = 0;
    }
 

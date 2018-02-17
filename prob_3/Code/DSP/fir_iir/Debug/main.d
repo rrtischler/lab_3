@@ -44,10 +44,8 @@ main.obj: C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/stdlib.h
 main.obj: F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/math.h
 main.obj: F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/dsplib.h
 main.obj: F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/tms320.h
-main.obj: ../filtros/firLow.h
-main.obj: ../filtros/firHigh.h
-main.obj: ../filtros/firBand.h
 main.obj: ../samplesIn/samplesHex.h
+main.obj: ../filtros/iirLow.h
 
 ../main.c: 
 F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h: 
@@ -93,7 +91,5 @@ C:/ti/ccsv7/tools/compiler/c5500_4.4.1/include/stdlib.h:
 F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/math.h: 
 F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/dsplib.h: 
 F:/Google\ Drive/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/tms320.h: 
-../filtros/firLow.h: 
-../filtros/firHigh.h: 
-../filtros/firBand.h: 
 ../samplesIn/samplesHex.h: 
+../filtros/iirLow.h: 

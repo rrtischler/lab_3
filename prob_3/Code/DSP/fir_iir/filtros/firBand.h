@@ -15,9 +15,13 @@
  
 #include "dsplib.h"
 
-//#define BL 199
+#define FILENAME "..\\outDSP\\dspFirBand.txt"
+#define NH 199
+#define NBUFF NH+2
 
-DATA HBand[199] = {
+DATA dbuffer[NH+2];
+
+DATA coef[NH] = {
        14,    -10,     -1,      9,     17,     18,      8,    -15,    -43,
       -63,    -60,    -28,     29,     89,    124,    111,     46,    -52,
      -143,   -187,   -158,    -63,     63,    168,    207,    164,     60,
@@ -42,3 +46,9 @@ DATA HBand[199] = {
       -63,    -43,    -15,      8,     18,     17,      9,     -1,    -10,
        14
 };
+
+void filter(){
+    oflag = fir (samplesIn, coef, out, dbuffer, NX, NH);
+    printf("\n\noflag: %u\n", oflag);
+    printf("FIR Passa-Banda: \n");
+}

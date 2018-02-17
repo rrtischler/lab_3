@@ -15,9 +15,13 @@
 
 #include "dsplib.h"
 
-//#define BL 215
+#define FILENAME "..\\outDSP\\dspFirHigh.txt"
+#define NH 215
+#define NBUFF NH+2
 
-DATA HHigh[215] = {
+DATA dbuffer[NH+2];
+
+DATA coef[NH] = {
        11,   -267,    469,   -109,   -199,    -48,     89,    106,     29,
       -55,    -80,    -38,     29,     67,     50,     -5,    -54,    -59,
       -18,     38,     64,     39,    -17,    -61,    -58,     -8,     50,
@@ -43,3 +47,9 @@ DATA HHigh[215] = {
       -54,     -5,     50,     67,     29,    -38,    -80,    -55,     29,
       106,     89,    -48,   -199,   -109,    469,   -267,     11
 };
+
+void filter(){
+    oflag = fir (samplesIn, coef, out, dbuffer, NX, NH);
+    printf("\n\noflag: %u\n", oflag);
+    printf("FIR Passa-Alta: \n");
+}

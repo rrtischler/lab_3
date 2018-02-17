@@ -9,11 +9,11 @@
 
 4. https://www.mathworks.com/help/dsp/ug/digital-filter-design-block.html
 
-5. 
+5. https://www.mathworks.com/help/dsp/ref/biquadfilter.html#brsycyp-1
 
-6. 
+6. https://www.mathworks.com/help/dsp/ref/dsp.biquadfilter-system-object.html
 
-7. 
+7. https://www.mathworks.com/help/signal/ref/tf2sos.html
 
 8. 
 

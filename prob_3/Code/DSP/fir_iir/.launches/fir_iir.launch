@@ -6,7 +6,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Texas Instruments XDS100v2 USB Debug Probe/C55xx" value="fir_iir"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:fir_iir}"/>
 <mapAttribute key="com.ti.ccstudio.debug.ui.displayFormats">
-<mapEntry key="Texas Instruments XDS100v2 USB Debug Probe/C55xx@##separator##@1" value="16-Bit Hex - TI Style"/>
+<mapEntry key="Texas Instruments XDS100v2 USB Debug Probe/C55xx@##separator##@1" value="16-Bit Signed Int"/>
 </mapAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/fir_iir"/>
