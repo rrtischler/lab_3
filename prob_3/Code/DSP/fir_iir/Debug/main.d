@@ -45,7 +45,7 @@ main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ds
 main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/dsplib.h
 main.obj: E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/tms320.h
 main.obj: ../samplesIn/samplesHex.h
-main.obj: ../filtros/iirLow.h
+main.obj: ../filtros/iirHigh.h
 
 ../main.c: 
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/ezdsp5502_v1/include/ezdsp5502.h: 
@@ -92,4 +92,4 @@ E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/dsplib.h: 
 E:/Shay_user/Desktop/UFBA/2017.2/Lab3/lab_3/prob_3/Code/DSP/fir_iir/dsplib_2.40.00/include/tms320.h: 
 ../samplesIn/samplesHex.h: 
-../filtros/iirLow.h: 
+../filtros/iirHigh.h: 

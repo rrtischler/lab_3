@@ -13,10 +13,10 @@
 //#include "filtros/firLow.h"
 //#include "filtros/firHigh.h"
 //#include "filtros/firBand.h"
-//#include "filtros/iirLow.h"
+#include "filtros/iirLow.h"
 
 //#include "filtros/iirBand.h"
-#include "filtros/iirHigh.h"
+//#include "filtros/iirHigh.h"
 
 
 void zerarVetores();

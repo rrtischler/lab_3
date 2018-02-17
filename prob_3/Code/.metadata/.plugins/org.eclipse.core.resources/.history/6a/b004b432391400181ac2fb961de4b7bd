@@ -16,7 +16,7 @@
 //#include "filtros/iirLow.h"
 
 //#include "filtros/iirBand.h"
-#include "filtros/iirHigh.h"
+//#include "filtros/iirHigh.h"
 
 
 void zerarVetores();
