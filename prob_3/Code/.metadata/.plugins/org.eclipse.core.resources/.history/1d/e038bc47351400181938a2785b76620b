@@ -1,0 +1,64 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include "ezdsp5502.h"
+#include "dsplib.h"
+
+#include "samplesIn/samplesHex.h"
+
+//=========================================
+//        ESCOLHER O FILTRO AQUI
+//=========================================
+
+//#include "filtros/firLow.h"
+//#include "filtros/firHigh.h"
+#include "filtros/firBand.h"
+//#include "filtros/iirLow.h"
+//#include "filtros/iirBand.h"
+//#include "filtros/iirHigh.h"
+
+
+void zerarVetores();
+void printOUT();
+void printFileOUT();
+
+int main(void){
+
+    zerarVetores();
+
+    filter();
+
+//    printOUT();
+    printFileOUT();
+
+    return 0;
+}
+
+void printOUT(){
+    int i;
+    for(i=0; i<NX;i++){
+        printf("%d ",out[i]);
+    }
+}
+
+void printFileOUT(){
+    FILE *outFile;
+    outFile = fopen(FILENAME, "w");
+    int i;
+    for(i=0; i<NX; i++){
+        fprintf(outFile, "%d ", out[i]);
+//        printf("%d ", out[i]);
+//        printf("%d ", i);
+    }
+}
+
+void zerarVetores(){
+    int i;
+    for(i=0; i<NBUFF; i++){
+       dbuffer[i] = 0;
+   }
+
+   for(i=0; i<NX; i++){
+       out[i] = 0;
+   }
+}
