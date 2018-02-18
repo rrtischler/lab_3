@@ -1,0 +1,10 @@
+firlowmaxdif   =   1.294000944055962e-04  
+firlowrmse     =   5.042700455565637e-05  
+firhighmaxdif  =   9.799728556157683e-05  
+firhighrmse    =   4.313626742370201e-05  
+firbandmaxdif  =   1.105505260913624e-04  
+firbandrmse    =   2.704808141314581e-05  
+iirlowmaxdif   =   4.979595147414084e-05  
+iirlowrmse     =   2.402391183733226e-05  
+iirhighmaxdif  =   2.910644427317477e-05  
+iirhighrmse    =   1.183782330287944e-05

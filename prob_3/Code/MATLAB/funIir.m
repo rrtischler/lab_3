@@ -8,14 +8,20 @@ load(file)
 
 y = filter(b,a,x);
 
-subplot(221); 
-plot(t,x);
-subplot(222);
-plot(y);
+% subplot(221); 
+% plot(t,x);
+% subplot(222);
+% plot(y);
+% 
+% subplot(223); 
+% periodogram(x, rectwin(length(x)), length(x), fs);
+% subplot(224); 
+% periodogram(y, rectwin(length(y)), length(y), fs);
 
-subplot(223); 
-periodogram(x, rectwin(length(x)), length(x), fs);
-subplot(224); 
+figure
+subplot(211); 
+plot(t,y);
+subplot(212); 
 periodogram(y, rectwin(length(y)), length(y), fs);
 
 figure;

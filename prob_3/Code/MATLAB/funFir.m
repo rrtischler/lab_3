@@ -6,7 +6,6 @@ load(file)
 
 y = filter(Num,1,x);
 
-figure
 % subplot(221); 
 % plot(t,x);
 % subplot(222);
@@ -17,6 +16,7 @@ figure
 % subplot(224); 
 % periodogram(y, rectwin(length(y)), length(y), fs);
 
+figure
 subplot(211); 
 plot(t,y);
 subplot(212); 
@@ -25,4 +25,3 @@ periodogram(y, rectwin(length(y)), length(y), fs);
 figure;
 freqz(Num,1);
 end
-

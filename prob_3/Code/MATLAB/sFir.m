@@ -1,7 +1,7 @@
 %script para filtro FIR
 
-funFir('firLow', x, t, fs);
+firlowmat = funFir('firLow', x, t, fs);
 
-% funFir('firBand', x, t, fs);
+firbandmat = funFir('firBand', x, t, fs);
 
-% funFir('firHigh', x, t, fs);
+firhighmat = funFir('firHigh', x, t, fs);
