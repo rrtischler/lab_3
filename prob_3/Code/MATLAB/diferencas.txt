@@ -1,3 +1,10 @@
+dif é a diferença absoluta entre matlab e dsp
+maxdif = max(abs(matlab - dsp))
+
+rmse é root mean squared error : https://en.wikipedia.org/wiki/Root-mean-square_deviation
+m = sqrt(mean((matlab - dsp).^2))
+
+
 firlowmaxdif   =   1.294000944055962e-04  
 firlowrmse     =   5.042700455565637e-05  
 firhighmaxdif  =   9.799728556157683e-05  
